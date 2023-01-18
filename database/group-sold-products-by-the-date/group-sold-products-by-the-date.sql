@@ -1,9 +1,3 @@
-WITH a AS (
-    SELECT DISTINCT * FROM Activities)
-
-SELECT
-    sell_date
-     ,COUNT(product) AS num_sold
-     ,STRING_AGG(product,',') WITHIN group (ORDER BY product) AS products
-FROM a
+SELECT sell_date, count(DISTINCT product) as num_sold, GROUP_CONCAT(DISTINCT product,'') as products
+FROM Activities
 GROUP BY sell_date

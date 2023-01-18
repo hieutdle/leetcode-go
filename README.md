@@ -14,10 +14,10 @@ I understand how challenging it can be to work through these problems and I hope
 
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
-| :green_circle: Easy    |       33        |
+| :green_circle: Easy    |       37        |
 | :yellow_circle: Medium |        5        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       39        |
+| :black_circle: Total   |       43        |
 
 ## Repository Structure
 
@@ -59,11 +59,15 @@ I also add the test cases that I failed during my submissions, which is not incl
 | 0013 | Roman to Integer                                       |                      [Go](easy/roman-to-integer)                       |   58.2%    |    Easy    |                 `Hash Table` `Math` `String`                  |
 | 0041 | First Missing Positive                                 |                   [Go](hard/first-missing-positive)                    |   36.6%    |    Hard    |                     `Array` `Hash Table`                      |
 | 0049 | Group Anagrams                                         |                      [Go](medium/group-anagrams)                       |   66.6%    |   Medium   |            `Array` `Hash Table` `String` `Sorting`            |
+| 0183 | Customers Who Never Order                              |               [SQL](database/customers-who-never-order)                |   68.4%    |    Easy    |                          `Database`                           |
 | 0217 | Contains Duplicate                                     |                     [Go](easy/contains-duplicate)                      |   61.4%    |    Easy    |                `Array` `Hash Table` `Sorting`                 |
 | 0242 | Valid Anagram                                          |                        [Go](easy/valid-anagram)                        |   62.9%    |    Easy    |                `Hash Table` `String` `Sorting`                |
 | 0290 | Word Pattern                                           |                        [Go](easy/word-pattern)                         |   41.7%    |    Easy    |                     `Hash Table` `String`                     |
 | 0349 | Intersection of Two Arrays                             |                 [Go](easy/intersection-of-two-arrays)                  |   70.6%    |    Easy    | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 | 0442 | Find All Duplicates in an Array                        |              [Go](medium/find-all-duplicates-in-an-array)              |   73.4%    |   Medium   |                     `Array` `Hash Table`                      |
+| 0584 | Find Customer Referee                                  |                 [SQL](database/find-customer-referee)                  |   69.7%    |    Easy    |                          `Database`                           |
+| 0595 | Big Countries                                          |                     [SQL](database/big-countries)                      |   71.9%    |    Easy    |                          `Database`                           |
+| 0724 | Find Pivot Index                                       |                      [Go](easy/find-pivot-index)                       |   54.0%    |    Easy    |                     `Array` `Prefix Sum`                      |
 | 0771 | Jewels and Stones                                      |                      [Go](easy/jewels-and-stones)                      |   88.1%    |    Easy    |                     `Hash Table` `String`                     |
 | 1108 | Defanging an IP Address                                |                   [Go](easy/defanging-an-ip-address)                   |   89.3%    |    Easy    |                           `String`                            |
 | 1281 | Subtract the Product and Sum of Digits of an Integer   |    [Go](easy/subtract-the-product-and-sum-of-digits-of-an-integer)     |   86.7%    |    Easy    |                            `Math`                             |
