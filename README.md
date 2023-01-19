@@ -14,10 +14,10 @@ I understand how challenging it can be to work through these problems and I hope
 
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
-| :green_circle: Easy    |       37        |
+| :green_circle: Easy    |       38        |
 | :yellow_circle: Medium |        6        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       44        |
+| :black_circle: Total   |       45        |
 
 ## Repository Structure
 
