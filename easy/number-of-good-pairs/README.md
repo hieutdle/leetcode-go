@@ -1,37 +1,26 @@
-# [1512. Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)
+# [704. Binary Search](https://leetcode.com/problems/binary-search/)
+
 
 ## Description
 
-Given an array of integers `nums`, return the _number of **good pairs**_.
+Given an array of integers `nums` which is sorted in ascending order, and an integer `target`, write a function to search `target` in `nums`. If `target`exists, then return its index. Otherwise, return -1.
 
-A pair `(i,j)` is called _good_ if `nums[i] == nums[j]` and `i < j`.
+You must write an algorithm with O(log n) runtime complexity.
 
+**Example 1:**
 
+    Input: nums = [-1,0,3,5,9,12], target = 9
+    Output: 4
+    Explanation: 9 exists in nums and its index is 4
 
-**Example 1**:
+**Example 2:**
 
-```
-Input: nums = [1,2,3,1,1,3]
-Output: 4
-Explanation: There are 4 good pairs (0,3), (0,4), (3,4), (2,5) 0-indexed.
-```
+    Input: nums = [-1,0,3,5,9,12], target = 2
+    Output: -1
+    Explanation: 2 does not exist in nums so return -1
 
-**Example 2**:
+**Note:**
 
-```
-Input: nums = [1,1,1,1]
-Output: 6
-Explanation: Each pair in the array are good.
-```
-
-**Example 3**:
-
-```
-Input: nums = [1,2,3]
-Output: 0
-```
-
-**Constraints**:
-
-- `1 <= nums.length <= 1000`
-- `1 <= nums[i] <= 100`
+1. You may assume that all elements in `nums` are unique.
+2. `n` will be in the range `[1, 10000]`.
+3. The value of each element in `nums` will be in the range `[-9999, 9999]`.
