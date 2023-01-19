@@ -17,12 +17,14 @@ func isIsomorphic(s string, t string) bool {
 	m2 := make(map[byte]bool)
 
 	for i := 0; i < l; i++ {
-		// If the character is not present in the map, add it, if it exists, check if the value is same as previous one.
+		// If the character is not present in the map, add it
+		// If it exists, check if the value is same as previous one.
 		if _, ok := m[s[i]]; !ok {
 			m[s[i]] = t[i]
 		} else if m[s[i]] != t[i] {
 			return false
 		}
+		// Store the unique characters from the second string
 		m2[t[i]] = true
 	}
 
