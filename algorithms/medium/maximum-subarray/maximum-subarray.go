@@ -1,4 +1,4 @@
-package maximum_subarray
+package algorithms
 
 func maxSubArray(nums []int) int {
 	right := len(nums) - 1

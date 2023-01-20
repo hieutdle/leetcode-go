@@ -14,10 +14,10 @@ I understand how challenging it can be to work through these problems and I hope
 
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
-| :green_circle: Easy    |       43        |
-| :yellow_circle: Medium |        6        |
+| :green_circle: Easy    |       52        |
+| :yellow_circle: Medium |        7        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       50        |
+| :black_circle: Total   |       60        |
 
 ## Solutions
 
@@ -56,9 +56,11 @@ I understand how challenging it can be to work through these problems and I hope
 | 1480 | Running Sum of 1d Array                                |                 [Go](algorithms/easy/running-sum-of-1d-array)                 |   88.7%    |    Easy    |                     `Array` `Prefix Sum`                      |
 | 1484 | Group Sold Products By The Date                        |                [SQL](database/group-sold-products-by-the-date)                |   81.8%    |    Easy    |                          `Database`                           |
 | 1512 | Number of Good Pairs                                   |                  [Go](algorithms/easy/number-of-good-pairs)                   |   88.2%    |    Easy    |            `Array` `Hash Table` `Math` `Counting`             |
+| 1527 | Patients With a Condition                              |                   [SQL](database/patients-with-a-condition)                   |   41.5%    |    Easy    |                          `Database`                           |
 | 1528 | Shuffle String                                         |                     [Go](algorithms/easy/shuffle-string)                      |   85.5%    |    Easy    |                       `Array` `String`                        |
 | 1581 | Customer Who Visited but Did Not Make Any Transactions |    [SQL](database/customer-who-visited-but-did-not-make-any-transactions)     |   86.8%    |    Easy    |                          `Database`                           |
 | 1587 | Bank Account Summary II                                |                    [SQL](database/back-account-summary-ii)                    |   88.2%    |    Easy    |                          `Database`                           |
+| 1667 | Fix Names in a Table                                   |                     [SQL](database/fix-names-in-a-table)                      |   66.1%    |    Easy    |                          `Database`                           |
 | 1672 | Richest Customer Wealth                                |                 [Go](algorithms/easy/richest-customer-wealth)                 |   88.1%    |    Easy    |                       `Array` `Matrix`                        |
 | 1693 | Daily Leads and Partners                               |                   [SQL](database/daily-leads-and-partners)                    |   89.3%    |    Easy    |                          `Database`                           |
 | 1741 | Find Total Time Spent by Each Employee                 |            [SQL](database/find-total-time-spent-by-each-employee)             |   90.8%    |    Easy    |                          `Database`                           |

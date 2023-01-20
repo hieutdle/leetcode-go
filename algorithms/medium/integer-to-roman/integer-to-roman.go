@@ -1,9 +1,9 @@
-package integer_to_roman
+package algorithms
 
 func intToRoman(num int) string {
 
 	// Slice to hold values
-	values := []int{1000,900,500,400,100,90,50,40,10,9,5,4,1}
+	values := []int{1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1}
 
 	// Slice to hold roman numerals
 	symbols := []string{"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"}
@@ -15,7 +15,7 @@ func intToRoman(num int) string {
 
 	for num != 0 {
 		// If the current value in the value slice is less than the number
-		if num >= values[i]{
+		if num >= values[i] {
 			// Add the roman numeral to the result
 			res += symbols[i]
 

@@ -1,4 +1,4 @@
-package add_two_integers
+package algorithms
 
 import (
 	"fmt"

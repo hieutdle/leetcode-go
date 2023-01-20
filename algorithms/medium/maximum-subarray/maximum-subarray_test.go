@@ -1,4 +1,4 @@
-package maximum_subarray
+package algorithms
 
 import (
 	"fmt"
