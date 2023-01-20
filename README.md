@@ -19,35 +19,6 @@ I understand how challenging it can be to work through these problems and I hope
 | :red_circle: Hard      |        1        |
 | :black_circle: Total   |       50        |
 
-## Repository Structure
-
-I also add the test cases that I failed during my submissions, which is not included in the original problem's descriptions on the website.
-
-```ascii
-├── easy/
-│   ├── word-pattern/                       
-│   │   ├── word-pattern.go                 // Solution
-│   │   ├── word-pattern_test.go            // Tests
-│   │   └── README.md                       // Description
-│   │
-│   ├── contains-duplicate/
-│   │   ├── contains-duplicate.go
-│   │   ├── contains-duplicate_test.go
-│   │   └── README.md
-│   └── ...
-│   
-├── medium/
-│   ├── group-anagrams/
-│   │   ├── group-anagrams.go
-│   │   ├── group-anagrams_test.go
-│   │   └── README.md
-│   └── ...
-│  
-│── hard/  
-│
-└── README.md                            
-```
-
 ## Solutions
 
 
