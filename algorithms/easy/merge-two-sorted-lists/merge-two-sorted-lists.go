@@ -1,4 +1,4 @@
-package merge_two_sorted_lists
+package algorithms
 
 import (
 	"github.com/goldennovember/leetcode-go/gods"

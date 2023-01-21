@@ -1,41 +1,39 @@
-package merge_two_sorted_lists
+package algorithms
 
 import (
 	"fmt"
+	"github.com/goldennovember/leetcode-go/gods"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )
 
+// testcases
 var tcs = []struct {
-	list1 *ListNode
-	list2 *ListNode
-	ans   int
+	list1 []int
+	list2 []int
+	ans   []int
 }{
-	{
-		[]int{1, 2, 3, 1, 1, 3},
-		4,
-	},
-
-	{
-		[]int{1, 1, 1, 1},
-		6,
-	},
-
-	{
-		[]int{1, 1, 1, 1},
-		6,
-	},
+	{[]int{1, 2, 4}, []int{1, 3, 4}, []int{1, 1, 2, 3, 4, 4}},
+	{[]int{}, []int{}, []int{}},
+	{[]int{}, []int{0}, []int{0}},
 }
 
-func Test_numIdenticalPairs(t *testing.T) {
+func Test_mergeTwoLists(t *testing.T) {
 
 	ast := assert.New(t)
 
-	fmt.Printf("------------------------Leetcode Problem 1512. Number of Good Pairs------------------------\n")
-
+	fmt.Printf("------------------------Leetcode Problem 21. Merge Two Sorted Lists------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v\n【Output】: %v \n", tc.nums, numIdenticalPairs(tc.nums))
-		ast.Equal(tc.ans, numIdenticalPairs(tc.nums), "Case: %v", tc)
+		fmt.Printf("【Input】: list1 = %v list2 = %v\n【Output】: %v \n", tc.list1, tc.list2, gods.List2Slices(mergeTwoLists(gods.Slices2List(tc.list1), gods.Slices2List(tc.list2))))
+		ast.Equal(tc.ans, gods.List2Slices(mergeTwoLists(gods.Slices2List(tc.list1), gods.Slices2List(tc.list2))), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")
+}
+
+func Benchmark_mergeTwoLists(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		for _, tc := range tcs {
+			mergeTwoLists(gods.Slices2List(tc.list1), gods.Slices2List(tc.list2))
+		}
+	}
 }
