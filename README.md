@@ -14,10 +14,10 @@ I understand how challenging it can be to work through these problems and I hope
 
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
-| :green_circle: Easy    |       52        |
-| :yellow_circle: Medium |        7        |
+| :green_circle: Easy    |       53        |
+| :yellow_circle: Medium |        8        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       60        |
+| :black_circle: Total   |       62        |
 
 ## Solutions
 
@@ -33,6 +33,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0049 | Group Anagrams                                         |                    [Go](algorithms/medium/group-anagrams)                     |   66.6%    |   Medium   |            `Array` `Hash Table` `String` `Sorting`            |
 | 0053 | Maximum Subarray                                       |                   [Go](algorithms/medium/maximum-subarray)                    |   50.1%    |   Medium   |      `Array` `Divide and Conquer` `Dynamic Programming`       |
 | 0121 | Best Time to Buy and Sell Stock                        |             [Go](algorithms/easy/best-time-to-buy-and-sell-stock)             |   54.3%    |    Easy    |                 `Array` `Dynamic Programming`                 |
+| 0176 | Second Highest Salary                                  |                     [SQL](database/second-highest-salary)                     |   37.1%    |   Medium   |                          `Database`                           |
 | 0183 | Customers Who Never Order                              |                   [SQL](database/customers-who-never-order)                   |   68.4%    |    Easy    |                          `Database`                           |
 | 0189 | Rotate Array                                           |                     [Go](algorithms/medium/rotate-array)                      |   39.3%    |   Medium   |                 `Array` `Math` `Two Pointers`                 |
 | 0196 | Delete Duplicate Emails                                |                    [SQL](database/delete-duplicate-emails)                    |   59.8%    |    Easy    |                          `Database`                           |
@@ -75,6 +76,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 1873 | Calculate Special Bonus                                |                    [SQL](database/calculate-special-bonus)                    |   61.4%    |    Easy    |                          `Database`                           |
 | 1920 | Build Array from Permutation                           |              [Go](algorithms/easy/build-array-from-permutation)               |   91.0%    |    Easy    |                     `Array` `Simulation`                      |
 | 1929 | Concatenation of Array                                 |                 [Go](algorithms/easy/concatenation-of-array)                  |   90.9%    |    Easy    |                            `Array`                            |
+| 1965 | Employees With Missing Information                     |              [SQL](database/employees-with-missing-information)               |   78.0%    |    Easy    |                          `Databases`                          |
 | 2011 | Final Value of Variable After Performing Operations    |   [Go](algorithms/easy/final-value-of-variable-after-performing-operations)   |   88.8%    |    Easy    |                 `Array` `String` `Simulation`                 |
 | 2032 | Two Out of Three                                       |                    [Go](algorithms/easy/two-out-of-three)                     |   73.0%    |    Easy    |                     `Array` `Hash Table`                      |
 | 2114 | Maximum Number of Words Found in Sentences             |       [Go](algorithms/easy/maximum-number-of-words-found-in-sentences)        |   87.8%    |    Easy    |                       `Array` `String`                        |
