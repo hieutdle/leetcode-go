@@ -15,24 +15,36 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 		return list1
 	}
 
-	var ans *LinkedList
+	ans := LinkedList{}
+	var node *ListNode
 
 	if list1.Val > list2.Val {
-		ans = &LinkedList{Head: list2}
+		ans.Head = list2
+		node = list2
 		list2 = list2.Next
 	} else {
-		ans = &LinkedList{Head: list1}
+		ans.Head = list1
+		node = list1
 		list1 = list1.Next
 	}
 
 	for list1 != nil && list2 != nil {
 		if list1.Val > list2.Val {
-			ans.Prepend(list2)
+			node.Next = list2
 			list2 = list2.Next
 		} else {
-			ans.Prepend(list1)
+			node.Next = list1
 			list1 = list1.Next
 		}
+		node = node.Next
+	}
+
+	if list1 != nil {
+		node.Next = list1
+	}
+
+	if list2 != nil {
+		node.Next = list2
 	}
 
 	return ans.Head
