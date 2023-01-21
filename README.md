@@ -14,10 +14,10 @@ I understand how challenging it can be to work through these problems and I hope
 
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
-| :green_circle: Easy    |       53        |
+| :green_circle: Easy    |       55        |
 | :yellow_circle: Medium |        8        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       62        |
+| :black_circle: Total   |       64        |
 
 ## Solutions
 
@@ -44,10 +44,12 @@ I understand how challenging it can be to work through these problems and I hope
 | 0242 | Valid Anagram                                          |                      [Go](algorithms/easy/valid-anagram)                      |   62.9%    |    Easy    |                `Hash Table` `String` `Sorting`                |
 | 0278 | First Bad Version                                      |                    [Go](algorithms/easy/first-bad-version)                    |   43.1%    |    Easy    |                `Binary Search` ` Interactive`                 |
 | 0290 | Word Pattern                                           |                      [Go](algorithms/easy/word-pattern)                       |   41.7%    |    Easy    |                     `Hash Table` `String`                     |
+| 0344 | Reverse String                                         |                     [Go](algorithms/easy/reverse-string)                      |   76.5%    |    Easy    |                    `Two Pointers` `String`                    |
 | 0349 | Intersection of Two Arrays                             |               [Go](algorithms/easy/intersection-of-two-arrays)                |   70.6%    |    Easy    | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 | 0350 | Intersection of Two Arrays II                          |              [Go](algorithms/easy/intersection-of-two-arrays-ii)              |   55.8%    |    Easy    | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting` |
 | 0392 | Is Subsequence                                         |                     [Go](algorithms/easy/is-subsequence)                      |   48.3%    |    Easy    |         `Two Pointers` `String` `Dynamic Programming`         |
 | 0442 | Find All Duplicates in an Array                        |            [Go](algorithms/medium/find-all-duplicates-in-an-array)            |   73.4%    |   Medium   |                     `Array` `Hash Table`                      |
+| 0557 | Reverse Words in a String III                          |              [Go](algorithms/easy/reverse-words-in-a-string-iii)              |   81.8%    |    Easy    |                    `Two Pointers` `String`                    |
 | 0584 | Find Customer Referee                                  |                     [SQL](database/find-customer-referee)                     |   69.7%    |    Easy    |                          `Database`                           |
 | 0595 | Big Countries                                          |                         [SQL](database/big-countries)                         |   71.9%    |    Easy    |                          `Database`                           |
 | 0627 | Swap Salary                                            |                          [SQL](database/swap-salary)                          |   83.2%    |    Easy    |                          `Database`                           |
