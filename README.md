@@ -14,10 +14,10 @@ I understand how challenging it can be to work through these problems and I hope
 
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
-| :green_circle: Easy    |       55        |
-| :yellow_circle: Medium |        8        |
+| :green_circle: Easy    |       66        |
+| :yellow_circle: Medium |        9        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       64        |
+| :black_circle: Total   |       76        |
 
 ## Solutions
 
@@ -57,6 +57,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0704 | Binary Search                                          |                      [Go](algorithms/easy/binary-search)                      |   55.2%    |    Easy    |                    `Array` `Binary Search`                    |
 | 0724 | Find Pivot Index                                       |                    [Go](algorithms/easy/find-pivot-index)                     |   54.0%    |    Easy    |                     `Array` `Prefix Sum`                      |
 | 0771 | Jewels and Stones                                      |                    [Go](algorithms/easy/jewels-and-stones)                    |   88.1%    |    Easy    |                     `Hash Table` `String`                     |
+| 0876 | Middle of the Linked List                              |                [Go](algorithms/easy/middle-of-the-linked-list)                |   75.1%    |    Easy    |                 `Linked List` `Two Pointers`                  |
 | 0977 | Squares of a Sorted Array                              |                [Go](algorithms/easy/squares-of-a-sorted-array)                |   71.9%    |    Easy    |               `Array` `Two Pointers` `Sorting`                |
 | 1108 | Defanging an IP Address                                |                 [Go](algorithms/easy/defanging-an-ip-address)                 |   89.3%    |    Easy    |                           `String`                            |
 | 1281 | Subtract the Product and Sum of Digits of an Integer   |  [Go](algorithms/easy/subtract-the-product-and-sum-of-digits-of-an-integer)   |   86.7%    |    Easy    |                            `Math`                             |
