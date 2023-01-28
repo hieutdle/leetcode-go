@@ -2,7 +2,7 @@
 
 ## Description
 
-Given two strings `s` and `t` ,  return _`true` if `t` is an anagram of `s`, and `false` otherwise._
+Given two strings `s` and `t`,  return _`true` if `t` is an anagram of `s`, and `false` otherwise._
 
 An **Anagram** is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 

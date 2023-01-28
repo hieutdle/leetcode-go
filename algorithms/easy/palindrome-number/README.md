@@ -2,7 +2,7 @@
 
 ## Description
 
-Given an integer `x`, return _`true` if `x` is a **palindrome** , and `false` otherwise_.
+Given an integer `x`, return _`true` if `x` is a **palindrome**, and `false` otherwise_.
 
 An integer is a **palindrome** when it reads the same forward and backward.
 
