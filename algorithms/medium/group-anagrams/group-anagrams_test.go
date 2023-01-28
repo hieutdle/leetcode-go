@@ -1,4 +1,4 @@
-package group_anagrams
+package algorithms
 
 import (
 	"fmt"

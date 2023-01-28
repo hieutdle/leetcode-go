@@ -1,4 +1,4 @@
-package word_pattern
+package algorithms
 
 import "strings"
 

@@ -6,21 +6,21 @@ Given a string `s`, _find the first non-repeating character in it and return its
 
 **Example 1:**
 
-```
+```go
 Input: s = "leetcode"
 Output: 0
 ```
 
 **Example 2:**
 
-```
+```go
 Input: s = "loveleetcode"
 Output: 2
 ```
 
 **Example 3:**
 
-```
+```go
 Input: s = "aabb"
 Output: -1
 ```

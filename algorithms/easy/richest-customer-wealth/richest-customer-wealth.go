@@ -1,4 +1,4 @@
-package richest_customer_wealth
+package algorithms
 
 func maximumWealth(accounts [][]int) int {
 	richest := 0

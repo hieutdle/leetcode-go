@@ -12,14 +12,14 @@ Return _the head of the merged linked list_.
 
 ![](../../../figures/merge_ex1.jpg)
 
-```
+```go
 Input: list1 = [1,2,4], list2 = [1,3,4]
 Output: [1,1,2,3,4,4]
 ```
 
 **Example 2:**
 
-```
+```go
 Input: list1 = [], list2 = []
 Output: []
 ```

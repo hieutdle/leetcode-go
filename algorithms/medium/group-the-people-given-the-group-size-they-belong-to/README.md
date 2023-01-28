@@ -14,7 +14,7 @@ Each person should appear **in exactly one group**, and every person must be in 
 
 **Example 1:**
 
-```
+```go
 Input: groupSizes = [3,3,3,3,3,1,3]
 Output: [[5],[0,1,2],[3,4,6]]
 Explanation: 
@@ -26,7 +26,7 @@ Other possible solutions are [[2,1,6],[5],[0,4,3]] and [[5],[0,6,2],[4,3,1]].
 
 **Example 2:**
 
-```
+```go
 Input: groupSizes = [2,1,3,3,3,2]
 Output: [[1],[0,5],[2,3,4]]
 ```

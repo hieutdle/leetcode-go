@@ -1,4 +1,4 @@
-package group_anagrams
+package algorithms
 
 func groupAnagrams(strs []string) [][]string {
 	var ans [][]string

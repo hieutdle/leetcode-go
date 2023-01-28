@@ -51,7 +51,7 @@ func Test_rotate(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 189. Rotate Array------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v k = %v\n【Output】: %v\n", tc.nums, tc.k, rotate(tc.nums, tc.k))
+		fmt.Printf("【Input】: nums = %v, k = %v\n【Output】: %v\n", tc.nums, tc.k, rotate(tc.nums, tc.k))
 		ast.Equal(tc.ans, rotate(tc.nums, tc.k), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

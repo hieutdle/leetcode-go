@@ -12,7 +12,7 @@ If the index is on the left edge of the array, then the left sum is `0` because 
 Return _the **leftmost pivot index**_. If no such index exists, return `-1`.
 
 **Example 1:**
-```
+```go
 Input: nums = [1,7,3,6,5,6]
 Output: 3
 Explanation:
@@ -22,7 +22,7 @@ Right sum = nums[4] + nums[5] = 5 + 6 = 11
 ```
 
 **Example 2:**
-```
+```go
 Input: nums = [1,2,3]
 Output: -1
 Explanation:
@@ -30,7 +30,7 @@ There is no index that satisfies the conditions in the problem statement.
 ```
 
 **Example 3:**
-```
+```go
 Input: nums = [2,1,-1]
 Output: 0
 Explanation:

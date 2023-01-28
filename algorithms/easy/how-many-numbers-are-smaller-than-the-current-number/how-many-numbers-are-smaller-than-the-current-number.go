@@ -1,4 +1,4 @@
-package how_many_numbers_are_smaller_than_the_current_number
+package algorithms
 
 func smallerNumbersThanCurrent(nums []int) []int {
 	ans := []int{}

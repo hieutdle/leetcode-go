@@ -1,4 +1,4 @@
-package first_missing_positive
+package algorithms
 
 func firstMissingPositive(nums []int) int {
 

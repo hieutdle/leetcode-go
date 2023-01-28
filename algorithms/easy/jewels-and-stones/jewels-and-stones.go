@@ -1,4 +1,4 @@
-package jewels_and_stones
+package algorithms
 
 func numJewelsInStones(jewels string, stones string) int {
 	count := 0

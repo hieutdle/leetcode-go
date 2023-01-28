@@ -8,7 +8,7 @@ A **subsequence** of a string is a new string that is formed from the original s
 
 **Example 1:**
 
-```
+```go
 Input: s = "abc", t = "ahbgdc"
 Output: true
 ```

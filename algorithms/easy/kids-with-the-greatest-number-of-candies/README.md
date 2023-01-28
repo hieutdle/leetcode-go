@@ -11,7 +11,7 @@ Note that **multiple** kids can have the **greatest** number of candies.
 
 **Example 1:**
 
-```
+```go
 Input: candies = [2,3,5,1,3], extraCandies = 3
 Output: [true,true,true,false,true] 
 Explanation: If you give all extraCandies to:
@@ -24,7 +24,7 @@ Explanation: If you give all extraCandies to:
 
 **Example 2:**
 
-```
+```go
 Input: candies = [4,2,1,1,2], extraCandies = 1
 Output: [true,false,false,false,false] 
 Explanation: There is only 1 extra candy.
@@ -33,7 +33,7 @@ Kid 1 will always have the greatest number of candies, even if a different kid i
 
 **Example 3:**
 
-```
+```go
 Input: candies = [12,1,12], extraCandies = 10
 Output: [true,false,true]
 ```

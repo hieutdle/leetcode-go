@@ -1,4 +1,4 @@
-package maximum_number_of_words_found_in_sentences
+package algorithms
 
 import (
 	"fmt"

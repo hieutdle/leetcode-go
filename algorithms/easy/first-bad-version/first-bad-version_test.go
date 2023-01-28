@@ -35,3 +35,11 @@ func Test_firstBadVersion(t *testing.T) {
 	}
 	fmt.Printf("\n\n\n")
 }
+
+func Benchmark_firstBadVersion(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		for _, tc := range tcs {
+			firstBadVersion(tc.n)
+		}
+	}
+}

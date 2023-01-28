@@ -11,7 +11,7 @@ Return _the **maximum number of words** that appear in a single sentence_.
 
 **Example 1:**
 
-```
+```go
 Input: sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"]
 Output: 6
 Explanation: 
@@ -23,7 +23,7 @@ Thus, the maximum number of words in a single sentence comes from the third sent
 
 **Example 2:**
 
-```
+```go
 Input: sentences = ["please wait", "continue to fight", "continue to win"]
 Output: 3
 Explanation: It is possible that multiple sentences contain the same number of words. 

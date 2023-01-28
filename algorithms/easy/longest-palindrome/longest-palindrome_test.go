@@ -1,4 +1,4 @@
-package algortihms
+package algorithms
 
 import (
 	"fmt"

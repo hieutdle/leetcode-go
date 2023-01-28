@@ -1,4 +1,4 @@
-package running_sum_of_1d_array
+package algorithms
 
 func runningSum(nums []int) []int {
 

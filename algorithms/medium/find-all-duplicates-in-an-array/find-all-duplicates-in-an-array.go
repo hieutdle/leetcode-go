@@ -1,4 +1,4 @@
-package find_all_duplicates_in_an_array
+package algorithms
 
 func findDuplicates(nums []int) []int {
 	// Map to find duplicates

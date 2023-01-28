@@ -1,4 +1,4 @@
-package number_of_good_pairs
+package algorithms
 
 import (
 	"fmt"

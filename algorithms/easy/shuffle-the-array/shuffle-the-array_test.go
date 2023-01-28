@@ -1,4 +1,4 @@
-package shuffle_the_array
+package algorithms
 
 import (
 	"fmt"

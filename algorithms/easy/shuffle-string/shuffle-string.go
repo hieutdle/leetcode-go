@@ -1,4 +1,4 @@
-package shuffle_string
+package algorithms
 
 func restoreString(s string, indices []int) string {
 

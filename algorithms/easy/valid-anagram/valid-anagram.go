@@ -1,4 +1,4 @@
-package valid_anagram
+package algorithms
 
 func isAnagram(s string, t string) bool {
 

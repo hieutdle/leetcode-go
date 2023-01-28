@@ -8,7 +8,7 @@ You must implement an algorithm that runs in `O(n)` time and uses constant extra
 
 **Example 1:**
 
-```
+```go
 Input: [1,2,0]  
 Output: 3
 Explanation: The numbers in the range [1,2] are all in the array.
@@ -16,7 +16,7 @@ Explanation: The numbers in the range [1,2] are all in the array.
 
 **Example 2:**
 
-```
+```go
 Input: nums = [3,4,-1,1]
 Output: 2
 Explanation: 1 is in the array but 2 is missing.
@@ -24,7 +24,7 @@ Explanation: 1 is in the array but 2 is missing.
 
 **Example 3:**
 
-```
+```go
 Input: nums = [7,8,9,11,12]
 Output: 1
 Explanation: The smallest positive integer 1 is missing.

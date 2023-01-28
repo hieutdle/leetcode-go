@@ -6,7 +6,7 @@ Given an integer number `n`, return the difference between the product of its di
 
 **Example 1:**
 
-```
+```go
 Input: n = 234
 Output: 15 
 Explanation: 
@@ -17,7 +17,7 @@ Result = 24 - 9 = 15
 
 **Example 2:**
 
-```
+```go
 Input: n = 4421
 Output: 21
 Explanation: 

@@ -10,7 +10,7 @@ Letters are **case sensitive**, for example, `"Aa"` is not considered a palindro
 
 **Example 1**:
 
-```
+```go
 Input: s = "abccccdd"
 Output: 7
 Explanation: One longest palindrome that can be built is "dccaccd", whose length is 7.
@@ -18,7 +18,7 @@ Explanation: One longest palindrome that can be built is "dccaccd", whose length
 
 **Example 2**:
 
-```
+```go
 Input: s = "a"
 Output: 1
 Explanation: The longest palindrome that can be built is "a", whose length is 1.

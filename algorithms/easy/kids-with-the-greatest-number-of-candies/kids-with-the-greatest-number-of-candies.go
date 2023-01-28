@@ -1,4 +1,4 @@
-package kids_with_the_greatest_number_of_candies
+package algorithms
 
 func kidsWithCandies(candies []int, extraCandies int) []bool {
 	max := candies[0]

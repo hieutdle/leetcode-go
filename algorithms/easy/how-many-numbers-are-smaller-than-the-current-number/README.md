@@ -8,7 +8,7 @@ Return the answer in an array.
 
 **Example 1:**
 
-```
+```go
 Input: nums = [8,1,2,2,3]
 Output: [4,0,1,1,3]
 Explanation: 
@@ -21,13 +21,13 @@ For nums[4]=3 there exist three smaller numbers than it (1, 2 and 2).
 
 **Example 2:**
 
-```
+```go
 Input: nums = [6,5,4,8]
 Output: [2,1,0,3]
 ```
 
 **Example 3:**
-```
+```go
 Input: nums = [7,7,7,7]
 Output: [0,0,0,0]
 ```

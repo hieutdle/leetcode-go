@@ -1,4 +1,4 @@
-package shuffle_the_array
+package algorithms
 
 func shuffle(nums []int, n int) []int {
 

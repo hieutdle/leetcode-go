@@ -8,14 +8,14 @@ Given an integer array `nums`, move all `0`'s to the end of it while maintaining
 
 **Example 1**:
 
-```
+```go
 Input: nums = [0,1,0,3,12]
 Output: [1,3,12,0,0]
 ```
 
 **Example 2**:
 
-```
+```go
 Input: nums = [0]
 Output: [0]
 ```

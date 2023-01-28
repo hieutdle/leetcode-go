@@ -1,4 +1,4 @@
-package two_out_of_three
+package algorithms
 
 func twoOutOfThree(nums1 []int, nums2 []int, nums3 []int) []int {
 

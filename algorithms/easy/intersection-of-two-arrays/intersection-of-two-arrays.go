@@ -1,4 +1,4 @@
-package intersection_of_two_arrays
+package algorithms
 
 func intersection(nums1 []int, nums2 []int) []int {
 

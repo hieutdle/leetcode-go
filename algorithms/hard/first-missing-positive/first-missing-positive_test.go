@@ -1,4 +1,4 @@
-package first_missing_positive
+package algorithms
 
 import (
 	"fmt"

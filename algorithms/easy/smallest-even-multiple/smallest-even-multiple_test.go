@@ -1,4 +1,4 @@
-package smallest_even_multiple
+package algorithms
 
 import (
 	"fmt"

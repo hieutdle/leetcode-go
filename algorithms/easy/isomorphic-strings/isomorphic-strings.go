@@ -1,4 +1,4 @@
-package isomorphic_strings
+package algorithms
 
 func isIsomorphic(s string, t string) bool {
 

@@ -10,14 +10,14 @@ An **Anagram** is a word or phrase formed by rearranging the letters of a differ
 
 **Example 1:**
 
-```c
+```go
 Input: s = "anagram", t = "nagaram"
 Output: true
 ```
 
 **Example 2:**
 
-```c
+```go
 Input: s = "rat", t = "car"
 Output: false
 ```

@@ -5,7 +5,7 @@
 
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 
-```
+```go
 Symbol       Value
 I             1
 V             5
@@ -28,14 +28,14 @@ Given an integer, convert it to a roman numeral.
 
 **Example 1:**
 
-```
+```go
 Input: num = 3
 Output: "III"
 ```
 
 **Example 2:**
 
-```
+```go
 Input: num = 58
 Output: "LVIII"
 Explanation: L = 50, V = 5, III = 3.
@@ -43,7 +43,7 @@ Explanation: L = 50, V = 5, III = 3.
 
 **Example 3:**
 
-```
+```go
 Input: num = 1994
 Output: "MCMXCIV"
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.

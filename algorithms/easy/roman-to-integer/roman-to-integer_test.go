@@ -1,4 +1,4 @@
-package roman_to_integer
+package algorithms
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package jewels_and_stones
+package algorithms
 
 import (
 	"fmt"
@@ -32,7 +32,7 @@ func Test_numJewelsInStones(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 771. Jewels and Stones------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: jewels = %v stones = %v\n【Output】: %v\n", tc.jewels, tc.stones, numJewelsInStones(tc.jewels, tc.stones))
+		fmt.Printf("【Input】: jewels = %v, stones = %v\n【Output】: %v\n", tc.jewels, tc.stones, numJewelsInStones(tc.jewels, tc.stones))
 		ast.Equal(tc.ans, numJewelsInStones(tc.jewels, tc.stones), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

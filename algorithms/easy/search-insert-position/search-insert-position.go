@@ -1,4 +1,4 @@
-package search_insert_position
+package algorithms
 
 func searchInsert(nums []int, target int) int {
 	left, right := 0, len(nums)-1

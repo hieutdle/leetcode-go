@@ -8,14 +8,14 @@ Letters are case-sensitive, so `"a"` is considered a different type of stone fro
 
 **Example 1:**
 
-```
+```go
 Input: jewels = "aA", stones = "aAAbbbb"
 Output: 3
 ```
 
 **Example 2:**
 
-```
+```go
 Input: jewels = "z", stones = "ZZ"
 Output: 0
 ```

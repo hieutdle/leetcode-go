@@ -8,7 +8,7 @@ Given an integer array `nums`, rotate the array to the right by `k` steps, where
 
 **Example 1:**
 
-```
+```go
 Input: nums = [1,2,3,4,5,6,7], k = 3
 Output: [5,6,7,1,2,3,4]
 Explanation:
@@ -19,7 +19,7 @@ rotate 3 steps to the right: [5,6,7,1,2,3,4]
 
 **Example 2:**
 
-```
+```go
 Input: nums = [-1,-100,3,99], k = 2
 Output: [3,99,-1,-100]
 Explanation: 

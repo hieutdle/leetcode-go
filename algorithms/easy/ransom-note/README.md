@@ -8,14 +8,14 @@ Each letter in `magazine` can only be used once in `ransomNote`.
 
 
 **Example 1:**
-```
+```go
 Input: ransomNote = "a", magazine = "b"
 Output: false
 ```
 
 **Example 2:**
 
-```
+```go
 Input: ransomNote = "aa", magazine = "ab"
 Output: false
 ```

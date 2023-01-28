@@ -12,7 +12,7 @@ There is a cycle in a linked list if there is some node in the list that can be 
 
 ![](../../../figures/circularlinkedlist.png)
 
-```
+```go
 Input: head = [3,2,0,-4], pos = 1
 Output: tail connects to node index 1
 Explanation: There is a cycle in the linked list, where tail connects to the second node.

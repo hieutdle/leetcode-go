@@ -10,7 +10,7 @@ All occurrences of a character must be replaced with another character while pre
 
 **Example 1:**
 
-```
+```go
 Input: s = "egg", t = "add"
 Output: true
 ```

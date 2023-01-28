@@ -1,4 +1,4 @@
-package kids_with_the_greatest_number_of_candies
+package algorithms
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package shuffle_string
+package algorithms
 
 import (
 	"fmt"

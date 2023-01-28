@@ -1,4 +1,4 @@
-package is_subsequence
+package algorithms
 
 func isSubsequence(s string, t string) bool {
 	i := 0

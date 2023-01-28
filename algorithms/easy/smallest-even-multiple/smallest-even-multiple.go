@@ -1,4 +1,4 @@
-package smallest_even_multiple
+package algorithms
 
 func smallestEvenMultiple(n int) int {
 

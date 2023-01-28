@@ -7,20 +7,20 @@ Given an array of integers `nums` and an integer `target`, return _indices of th
 You may assume that each input would have **_exactly_ one solution**, and you may not use the _same_ element twice.
 
 **Example 1:**
-```
+```go
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 ```
 
 **Example 2:**
-```
+```go
 Input: nums = [3,2,4], target = 6
 Output: [1,2]
 ```
 
 **Example 3:**
-```
+```go
 Input: nums = [3,3], target = 6
 Output: [0,1]
 ```
