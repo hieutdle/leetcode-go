@@ -27,7 +27,7 @@ func Test_reverseWords(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 557. Reverse Words in a String III------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: s = %v \n【Output】: %v \n", tc.s, reverseWords(tc.s))
+		fmt.Printf("【Input】: s = %v\n【Output】: %v\n", tc.s, reverseWords(tc.s))
 		ast.Equal(tc.ans, reverseWords(tc.s), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

@@ -44,9 +44,9 @@ func Test_merge(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 88. Merge Sorted Array------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums1 = %v, m = %v, nums2 = %v, n = %v \n", tc.nums1, tc.m, tc.nums2, tc.n)
+		fmt.Printf("【Input】: nums1 = %v, m = %v, nums2 = %v, n = %v\n", tc.nums1, tc.m, tc.nums2, tc.n)
 		merge(tc.nums1, tc.m, tc.nums2, tc.n)
-		fmt.Printf("【Output】: %v \n", tc.nums1)
+		fmt.Printf("【Output】: %v\n", tc.nums1)
 		ast.Equal(tc.ans, tc.nums1, "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

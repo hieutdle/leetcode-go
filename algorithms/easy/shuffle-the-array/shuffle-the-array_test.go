@@ -24,7 +24,7 @@ func Test_shuffle(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 1470. Shuffle the Array------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v, n = %v\n【Output】: %v \n", tc.nums, tc.n, shuffle(tc.nums, tc.n))
+		fmt.Printf("【Input】: nums = %v, n = %v\n【Output】: %v\n", tc.nums, tc.n, shuffle(tc.nums, tc.n))
 		ast.Equal(tc.ans, shuffle(tc.nums, tc.n), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

@@ -34,7 +34,7 @@ func Test_findDuplicates(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 442. Find All Duplicates in an Array------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v\n【Output】: %v \n", tc.nums, findDuplicates(tc.nums))
+		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.nums, findDuplicates(tc.nums))
 		ast.ElementsMatchf(tc.ans, findDuplicates(tc.nums), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

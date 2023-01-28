@@ -24,7 +24,7 @@ func Test_isAnagram(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 242. Valid Anagram------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: s = %v , t = %v \n【Output】: %v \n", tc.s, tc.t, isAnagram(tc.s, tc.t))
+		fmt.Printf("【Input】: s = %v , t = %v\n【Output】: %v\n", tc.s, tc.t, isAnagram(tc.s, tc.t))
 		ast.Equal(tc.ans, isAnagram(tc.s, tc.t), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

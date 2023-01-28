@@ -23,7 +23,7 @@ func Test_sum(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 2235. Add Two Integers------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: num1 = %v, num2 = %v\n【Output】: %v \n", tc.num1, tc.num2, tc.sum)
+		fmt.Printf("【Input】: num1 = %v, num2 = %v\n【Output】: %v\n", tc.num1, tc.num2, tc.sum)
 		ast.Equal(tc.sum, sum(tc.num1, tc.num2), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

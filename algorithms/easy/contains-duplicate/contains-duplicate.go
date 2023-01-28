@@ -1,4 +1,4 @@
-package contains_duplicate
+package algortihms
 
 func containsDuplicate(nums []int) bool {
 	// Using map as set to check the slice

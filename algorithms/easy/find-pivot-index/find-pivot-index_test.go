@@ -34,7 +34,7 @@ func Test_pivotIndex(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 724. Find Pivot Index------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v\n【Output】: %v \n", tc.nums, pivotIndex(tc.nums))
+		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.nums, pivotIndex(tc.nums))
 		ast.Equal(tc.ans, pivotIndex(tc.nums), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

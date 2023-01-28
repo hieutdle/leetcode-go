@@ -1,4 +1,4 @@
-package defanging_an_ip_address
+package algorithms
 
 import "strings"
 

@@ -41,7 +41,7 @@ func Test_searchInsert(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 35. Search Insert Position------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v, target = %v\n【Output】: %v \n", tc.nums, tc.target, searchInsert(tc.nums, tc.target))
+		fmt.Printf("【Input】: nums = %v, target = %v\n【Output】: %v\n", tc.nums, tc.target, searchInsert(tc.nums, tc.target))
 		ast.Equal(tc.ans, searchInsert(tc.nums, tc.target), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

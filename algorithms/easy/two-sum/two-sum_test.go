@@ -29,7 +29,7 @@ func Test_twoSum(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 1. Two Sum------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v , target = %v \n【Output】: %v \n", tc.nums, tc.target, twoSum(tc.nums, tc.target))
+		fmt.Printf("【Input】: nums = %v , target = %v\n【Output】: %v\n", tc.nums, tc.target, twoSum(tc.nums, tc.target))
 		ast.Equal(tc.ans, twoSum(tc.nums, tc.target), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

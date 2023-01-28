@@ -40,7 +40,7 @@ func Test_twoOutOfThree(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 2032. Two Out of Three------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums1 = %v nums2 = %v nums3 = %v\n【Output】: %v \n", tc.nums1,tc.nums2,tc.nums3, twoOutOfThree(tc.nums1,tc.nums2,tc.nums3))
+		fmt.Printf("【Input】: nums1 = %v nums2 = %v nums3 = %v\n【Output】: %v\n", tc.nums1,tc.nums2,tc.nums3, twoOutOfThree(tc.nums1,tc.nums2,tc.nums3))
 		ast.ElementsMatchf(tc.ans, twoOutOfThree(tc.nums1,tc.nums2,tc.nums3), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

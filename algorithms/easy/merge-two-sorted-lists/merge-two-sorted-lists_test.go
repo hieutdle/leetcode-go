@@ -24,7 +24,7 @@ func Test_mergeTwoLists(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 21. Merge Two Sorted Lists------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: list1 = %v list2 = %v\n【Output】: %v \n", tc.list1, tc.list2, gods.List2Slices(mergeTwoLists(gods.Slices2List(tc.list1), gods.Slices2List(tc.list2))))
+		fmt.Printf("【Input】: list1 = %v list2 = %v\n【Output】: %v\n", tc.list1, tc.list2, gods.List2Slices(mergeTwoLists(gods.Slices2List(tc.list1), gods.Slices2List(tc.list2))))
 		ast.Equal(tc.ans, gods.List2Slices(mergeTwoLists(gods.Slices2List(tc.list1), gods.Slices2List(tc.list2))), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

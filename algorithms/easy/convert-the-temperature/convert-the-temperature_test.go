@@ -1,4 +1,4 @@
-package convert_the_temperature
+package algorithms
 
 import (
 	"fmt"
@@ -28,7 +28,7 @@ func Test_convertTemperature(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 2469. Convert the Temperature------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: celcius = %v\n【Output】: %v \n", tc.celsius, convertTemperature(tc.celsius))
+		fmt.Printf("【Input】: celcius = %v\n【Output】: %v\n", tc.celsius, convertTemperature(tc.celsius))
 		ast.Equal(tc.ans, convertTemperature(tc.celsius), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

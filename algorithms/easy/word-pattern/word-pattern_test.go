@@ -26,7 +26,7 @@ func Test_wordPattern(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 290. Word Pattern------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: pattern = %v , s = %v \n【Output】: %v \n", tc.pattern, tc.str, wordPattern(tc.pattern, tc.str))
+		fmt.Printf("【Input】: pattern = %v , s = %v\n【Output】: %v\n", tc.pattern, tc.str, wordPattern(tc.pattern, tc.str))
 		ast.Equal(tc.ans, wordPattern(tc.pattern, tc.str), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

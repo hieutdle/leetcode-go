@@ -38,7 +38,7 @@ func Test_kidsWithCandies(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 1431. Kids With the Greatest Number of Candies------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: candies = %v, extraCandies = %v\n【Output】: %v \n", tc.candies, tc.extraCandies, kidsWithCandies(tc.candies, tc.extraCandies))
+		fmt.Printf("【Input】: candies = %v, extraCandies = %v\n【Output】: %v\n", tc.candies, tc.extraCandies, kidsWithCandies(tc.candies, tc.extraCandies))
 		ast.Equal(tc.result, kidsWithCandies(tc.candies, tc.extraCandies), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

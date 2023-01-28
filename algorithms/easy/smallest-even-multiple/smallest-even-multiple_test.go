@@ -21,7 +21,7 @@ func Test_smallestEvenMultiple(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 2413. Smallest Even Multiple------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: n = %v\n【Output】: %v \n", tc.n, smallestEvenMultiple(tc.n))
+		fmt.Printf("【Input】: n = %v\n【Output】: %v\n", tc.n, smallestEvenMultiple(tc.n))
 		ast.Equal(tc.ans, smallestEvenMultiple(tc.n), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

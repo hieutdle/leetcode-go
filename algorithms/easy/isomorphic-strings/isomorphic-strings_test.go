@@ -29,7 +29,7 @@ func Test_isIsomorphic(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 205. Isomorphic Strings------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: t = %v s = %v\n【Output】: %v \n", tc.t, tc.s, isIsomorphic(tc.s, tc.t))
+		fmt.Printf("【Input】: t = %v s = %v\n【Output】: %v\n", tc.t, tc.s, isIsomorphic(tc.s, tc.t))
 		ast.Equal(tc.ans, isIsomorphic(tc.s, tc.t), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

@@ -30,7 +30,7 @@ func Test_sortedSquares(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 977. Squares of a Sorted Array------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v\n【Output】: %v \n", tc.nums, sortedSquares(tc.nums))
+		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.nums, sortedSquares(tc.nums))
 		ast.Equal(tc.ans, sortedSquares(tc.nums), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

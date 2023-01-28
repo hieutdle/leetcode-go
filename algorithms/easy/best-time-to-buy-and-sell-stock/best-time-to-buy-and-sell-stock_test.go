@@ -34,7 +34,7 @@ func Test_maxProfit(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 121. Best Time to Buy and Sell Stock------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: prices = %v \n【Output】: %v \n", tc.prices, maxProfit(tc.prices))
+		fmt.Printf("【Input】: prices = %v\n【Output】: %v\n", tc.prices, maxProfit(tc.prices))
 		ast.Equal(tc.ans, maxProfit(tc.prices), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

@@ -33,7 +33,7 @@ func Test_isSubsequence(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 392. Is Subsequence------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: t = %v s = %v\n【Output】: %v \n", tc.t, tc.s, isSubsequence(tc.s, tc.t))
+		fmt.Printf("【Input】: t = %v s = %v\n【Output】: %v\n", tc.t, tc.s, isSubsequence(tc.s, tc.t))
 		ast.Equal(tc.ans, isSubsequence(tc.s, tc.t), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

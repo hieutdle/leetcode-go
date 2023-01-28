@@ -32,7 +32,7 @@ func Test_smallerNumbersThanCurrent(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 1365. How Many Numbers Are Smaller Than the Current Number------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v\n【Output】: %v \n", tc.nums, smallerNumbersThanCurrent(tc.nums))
+		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.nums, smallerNumbersThanCurrent(tc.nums))
 		ast.Equal(tc.ans, smallerNumbersThanCurrent(tc.nums), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

@@ -22,7 +22,7 @@ func Test_reverseList(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 206. Reverse Linked List------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: head = %v \n【Output】: %v \n", tc.head, gods.List2Slices(reverseList(gods.Slices2List(tc.head))))
+		fmt.Printf("【Input】: head = %v\n【Output】: %v\n", tc.head, gods.List2Slices(reverseList(gods.Slices2List(tc.head))))
 		ast.Equal(tc.ans, gods.List2Slices(reverseList(gods.Slices2List(tc.head))), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

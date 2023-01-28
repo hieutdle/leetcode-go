@@ -31,7 +31,7 @@ func Test_firstBadVersion(t *testing.T) {
 	fmt.Printf("------------------------Leetcode 278. First Bad Version------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: n = %v \n【Output】: %v \n", tc.n, tc.bad)
+		fmt.Printf("【Input】: n = %v\n【Output】: %v\n", tc.n, tc.bad)
 	}
 	fmt.Printf("\n\n\n")
 }

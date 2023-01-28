@@ -1,4 +1,4 @@
-package convert_the_temperature
+package algorithms
 
 func convertTemperature(celsius float64) []float64 {
 

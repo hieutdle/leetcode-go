@@ -29,7 +29,7 @@ func Test_mostWordsFound(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 2114. Maximum Number of Words Found in Sentences------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: sentences = %v\n【Output】: %v \n", tc.sentences, mostWordsFound(tc.sentences))
+		fmt.Printf("【Input】: sentences = %v\n【Output】: %v\n", tc.sentences, mostWordsFound(tc.sentences))
 		ast.Equal(tc.ans, mostWordsFound(tc.sentences), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

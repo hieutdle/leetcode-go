@@ -29,7 +29,7 @@ func Test_subtractProductAndSum(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 1281. Subtract the Product and Sum of Digits of an Integer------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: n = %v\n【Output】: %v \n", tc.n, subtractProductAndSum(tc.n))
+		fmt.Printf("【Input】: n = %v\n【Output】: %v\n", tc.n, subtractProductAndSum(tc.n))
 		ast.Equal(tc.ans, subtractProductAndSum(tc.n), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

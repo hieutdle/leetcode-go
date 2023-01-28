@@ -21,9 +21,9 @@ func Test_reverseString(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 344. Reverse String------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: s = %v \n", tc.s)
+		fmt.Printf("【Input】: s = %v\n", tc.s)
 		reverseString(tc.s)
-		fmt.Printf("【Output】: %v \n", tc.s)
+		fmt.Printf("【Output】: %v\n", tc.s)
 		ast.Equal(tc.ans, tc.s, "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

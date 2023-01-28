@@ -32,7 +32,7 @@ func Test_finalValueAfterOperations(t *testing.T) {
 	fmt.Printf("------------------------2011. Final Value of Variable After Performing Operations------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: opeartions = %v\n【Output】: %v \n", tc.operations, finalValueAfterOperations(tc.operations))
+		fmt.Printf("【Input】: opeartions = %v\n【Output】: %v\n", tc.operations, finalValueAfterOperations(tc.operations))
 		ast.Equal(tc.value, finalValueAfterOperations(tc.operations), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

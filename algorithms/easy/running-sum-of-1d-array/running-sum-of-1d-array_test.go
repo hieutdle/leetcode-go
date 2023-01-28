@@ -23,7 +23,7 @@ func Test_runningSum(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 1480. Running Sum of 1d Array------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v\n【Output】: %v \n", tc.nums, runningSum(tc.nums))
+		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.nums, runningSum(tc.nums))
 		ast.Equal(tc.sums, runningSum(tc.nums), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

@@ -22,7 +22,7 @@ func Test_romanToInt(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 13. Roman to Integer------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: s = %v \n【Output】: %v \n", tc.s, romanToInt(tc.s))
+		fmt.Printf("【Input】: s = %v\n【Output】: %v\n", tc.s, romanToInt(tc.s))
 		ast.Equal(tc.ans, romanToInt(tc.s), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

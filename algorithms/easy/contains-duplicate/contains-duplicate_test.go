@@ -1,4 +1,4 @@
-package contains_duplicate
+package algortihms
 
 import (
 	"fmt"
@@ -23,7 +23,7 @@ func Test_containsDuplicate(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 217. Contains Duplicate------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v\n【Output】: %v \n", tc.nums, containsDuplicate(tc.nums))
+		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.nums, containsDuplicate(tc.nums))
 		ast.Equal(tc.ans, containsDuplicate(tc.nums), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

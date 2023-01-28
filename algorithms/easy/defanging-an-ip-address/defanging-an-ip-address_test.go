@@ -1,4 +1,4 @@
-package defanging_an_ip_address
+package algorithms
 
 import (
 	"fmt"
@@ -29,7 +29,7 @@ func Test_defangIPaddr(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 1108. Defanging an IP Address------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: address = %v\n【Output】: %v \n", tc.address, defangIPaddr(tc.address))
+		fmt.Printf("【Input】: address = %v\n【Output】: %v\n", tc.address, defangIPaddr(tc.address))
 		ast.Equal(tc.defanged, defangIPaddr(tc.address), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

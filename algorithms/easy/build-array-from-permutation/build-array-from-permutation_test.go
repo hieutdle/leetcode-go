@@ -1,4 +1,4 @@
-package build_array_from_permutation
+package algorithms
 
 import (
 	"fmt"
@@ -26,7 +26,7 @@ func Test_buildArray(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 1920. Build Array from Permutation------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v \n【Output】: %v \n", tc.nums, buildArray(tc.nums))
+		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.nums, buildArray(tc.nums))
 		ast.Equal(tc.ans, buildArray(tc.nums), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

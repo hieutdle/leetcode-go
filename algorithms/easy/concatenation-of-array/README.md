@@ -9,7 +9,7 @@ Specifically, `ans` is the **concatenation** of two `nums` arrays.
 Return _the array_ `ans`.
 
 **Example 1:**
-```
+```go
 Input: nums = [1,2,1]
 Output: [1,2,1,1,2,1]
 Explanation: The array ans is formed as follows:
@@ -18,7 +18,7 @@ Explanation: The array ans is formed as follows:
 ```
 
 **Example 2:**
-```
+```go
 Input: nums = [1,3,2,1]
 Output: [1,3,2,1,1,3,2,1]
 Explanation: The array ans is formed as follows:

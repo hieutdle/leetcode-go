@@ -1,4 +1,4 @@
-package concatenation_of_array
+package algorithms
 
 import (
 	"fmt"
@@ -26,7 +26,7 @@ func Test_getConcatenation(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 1929. Concatenation of Array------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v \n【Output】: %v \n", tc.nums, getConcatenation(tc.nums))
+		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.nums, getConcatenation(tc.nums))
 		ast.Equal(tc.ans, getConcatenation(tc.nums), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

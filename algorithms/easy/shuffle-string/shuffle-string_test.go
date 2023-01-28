@@ -31,7 +31,7 @@ func Test_restoreString(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 1528. Shuffle String------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: s = %v, indices = %v\n【Output】: %v \n", tc.s, tc.indices, restoreString(tc.s, tc.indices))
+		fmt.Printf("【Input】: s = %v, indices = %v\n【Output】: %v\n", tc.s, tc.indices, restoreString(tc.s, tc.indices))
 		ast.Equal(tc.ans, restoreString(tc.s, tc.indices), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

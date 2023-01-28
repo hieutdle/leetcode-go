@@ -22,7 +22,7 @@ func Test_isPalindrome(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 9. Palindrome Number------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: x = %v \n【Output】: %v \n", tc.x, isPalindrome(tc.x))
+		fmt.Printf("【Input】: x = %v\n【Output】: %v\n", tc.x, isPalindrome(tc.x))
 		ast.Equal(tc.ans, isPalindrome(tc.x), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")
@@ -34,7 +34,7 @@ func Test_isPalindrome2(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 9. Palindrome Number------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: x = %v \n【Output】: %v \n", tc.x, isPalindrome2(tc.x))
+		fmt.Printf("【Input】: x = %v\n【Output】: %v\n", tc.x, isPalindrome2(tc.x))
 		ast.Equal(tc.ans, isPalindrome2(tc.x), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

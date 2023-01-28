@@ -37,7 +37,7 @@ func Test_longestPalindrome(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 409. Longest Palindrome------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: s = %v\n【Output】: %v \n", tc.s, longestPalindrome(tc.s))
+		fmt.Printf("【Input】: s = %v\n【Output】: %v\n", tc.s, longestPalindrome(tc.s))
 		ast.Equal(tc.ans, longestPalindrome(tc.s), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

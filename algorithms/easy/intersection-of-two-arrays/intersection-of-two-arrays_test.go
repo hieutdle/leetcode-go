@@ -36,7 +36,7 @@ func Test_intersection(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 349. Intersection of Two Arrays------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums1 = %v nums2 = %v \n【Output】: %v \n", tc.nums1, tc.nums2, intersection(tc.nums1, tc.nums2))
+		fmt.Printf("【Input】: nums1 = %v nums2 = %v\n【Output】: %v\n", tc.nums1, tc.nums2, intersection(tc.nums1, tc.nums2))
 		ast.Equal(tc.res, intersection(tc.nums1, tc.nums2), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

@@ -1,4 +1,4 @@
-package build_array_from_permutation
+package algorithms
 
 func buildArray(nums []int) []int {
 

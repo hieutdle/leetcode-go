@@ -34,7 +34,7 @@ func Test_numIdenticalPairs(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 1512. Number of Good Pairs------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v\n【Output】: %v \n", tc.nums, numIdenticalPairs(tc.nums))
+		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.nums, numIdenticalPairs(tc.nums))
 		ast.Equal(tc.ans, numIdenticalPairs(tc.nums), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

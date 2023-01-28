@@ -34,7 +34,7 @@ func Test_maximumWealth(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 1672. Richest Customer Wealth------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v\n【Output】: %v \n", tc.accounts, maximumWealth(tc.accounts))
+		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.accounts, maximumWealth(tc.accounts))
 		ast.Equal(tc.richest, maximumWealth(tc.accounts), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

@@ -34,7 +34,7 @@ func Test_maxSubArray(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 53. Maximum Subarray------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v\n【Output】: %v \n", tc.nums, maxSubArray(tc.nums))
+		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.nums, maxSubArray(tc.nums))
 		ast.Equal(tc.ans, maxSubArray(tc.nums), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

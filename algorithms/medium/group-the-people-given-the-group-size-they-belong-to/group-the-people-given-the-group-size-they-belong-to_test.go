@@ -29,7 +29,7 @@ func Test_groupThePeople(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 1282. Group the People Given the Group Size They Belong To------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: groupSizes = %v\n【Output】: %v \n", tc.groupSizes, groupThePeople(tc.groupSizes))
+		fmt.Printf("【Input】: groupSizes = %v\n【Output】: %v\n", tc.groupSizes, groupThePeople(tc.groupSizes))
 		ast.ElementsMatchf(tc.ans, groupThePeople(tc.groupSizes), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")

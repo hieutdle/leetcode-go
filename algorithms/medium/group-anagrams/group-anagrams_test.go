@@ -33,7 +33,7 @@ func Test_groupAnagrams(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 49. Group Anagrams------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: strs = %v\n【Output】: %v \n", tc.strs, groupAnagrams(tc.strs))
+		fmt.Printf("【Input】: strs = %v\n【Output】: %v\n", tc.strs, groupAnagrams(tc.strs))
 		ast.Equal(tc.ans, groupAnagrams(tc.strs), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")
