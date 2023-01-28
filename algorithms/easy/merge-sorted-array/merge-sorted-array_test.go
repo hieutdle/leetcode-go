@@ -37,24 +37,25 @@ var tcs = []struct {
 	},
 }
 
-func Test_mostWordsFound(t *testing.T) {
+func Test_merge(t *testing.T) {
 
 	ast := assert.New(t)
 
-	fmt.Printf("------------------------Leetcode Problem 2114. Maximum Number of Words Found in Sentences------------------------\n")
+	fmt.Printf("------------------------Leetcode Problem 88. Merge Sorted Array------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums1 = %v m = %v nums2 = %v n = %v \n【Output】: %v \n", tc.nums1, tc.m, tc.nums2, tc.n, merge(tc.nums1, tc.m, tc.nums2, tc.n))
-		fmt.Printf("【Input】: nums1 = %v m = %v nums2 = %v n = %v \n【Output】: %v \n", tc.nums1, tc.m, tc.nums2, tc.n, merge(tc.nums1, tc.m, tc.nums2, tc.n))
-		ast.Equal(tc.ans, mostWordsFound(tc.sentences), "Case: %v", tc)
+		fmt.Printf("【Input】: nums1 = %v, m = %v, nums2 = %v, n = %v \n", tc.nums1, tc.m, tc.nums2, tc.n)
+		merge(tc.nums1, tc.m, tc.nums2, tc.n)
+		fmt.Printf("【Output】: %v \n", tc.nums1)
+		ast.Equal(tc.ans, tc.nums1, "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")
 }
 
-func Benchmark_mostWordsFound(b *testing.B) {
+func Benchmark_merge(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		for _, tc := range tcs {
-			mostWordsFound(tc.sentences)
+			merge(tc.nums1, tc.m, tc.nums2, tc.n)
 		}
 	}
 }
