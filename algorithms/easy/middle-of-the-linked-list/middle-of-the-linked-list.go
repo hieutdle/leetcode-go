@@ -1,4 +1,4 @@
-package algortihms
+package algorithms
 
 import "github.com/goldennovember/leetcode-go/gods"
 
