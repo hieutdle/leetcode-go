@@ -25,6 +25,7 @@ func Test_getConcatenation(t *testing.T) {
 	ast := assert.New(t)
 
 	fmt.Printf("------------------------Leetcode Problem 1929. Concatenation of Array------------------------\n")
+
 	for _, tc := range tcs {
 		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.nums, getConcatenation(tc.nums))
 		ast.Equal(tc.ans, getConcatenation(tc.nums), "Case: %v", tc)
