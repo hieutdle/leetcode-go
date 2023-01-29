@@ -14,10 +14,10 @@ I understand how challenging it can be to work through these problems and I hope
 
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
-| :green_circle: Easy    |       68        |
+| :green_circle: Easy    |       69        |
 | :yellow_circle: Medium |        9        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       78        |
+| :black_circle: Total   |       79        |
 
 ## Solutions
 
@@ -67,6 +67,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0627 | Swap Salary                                            |                          [SQL](database/swap-salary)                          |   83.2%    |    Easy    |                          `Database`                           |
 | 0704 | Binary Search                                          |                      [Go](algorithms/easy/binary-search)                      |   55.2%    |    Easy    |                    `Array` `Binary Search`                    |
 | 0724 | Find Pivot Index                                       |                    [Go](algorithms/easy/find-pivot-index)                     |   54.0%    |    Easy    |                     `Array` `Prefix Sum`                      |
+| 0746 | Min Cost Climbing Stairs                               |                [Go](algorithms/easy/min-cost-climbing-stairs)                 |   62.9%    |    Easy    |                 `Array` `Dynamic Programming`                 |
 | 0771 | Jewels and Stones                                      |                    [Go](algorithms/easy/jewels-and-stones)                    |   88.1%    |    Easy    |                     `Hash Table` `String`                     |
 | 0876 | Middle of the Linked List                              |                [Go](algorithms/easy/middle-of-the-linked-list)                |   75.1%    |    Easy    |                 `Linked List` `Two Pointers`                  |
 | 0977 | Squares of a Sorted Array                              |                [Go](algorithms/easy/squares-of-a-sorted-array)                |   71.9%    |    Easy    |               `Array` `Two Pointers` `Sorting`                |
