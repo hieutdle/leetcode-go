@@ -14,10 +14,10 @@ I understand how challenging it can be to work through these problems and I hope
 
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
-| :green_circle: Easy    |       69        |
-| :yellow_circle: Medium |        9        |
+| :green_circle: Easy    |       70        |
+| :yellow_circle: Medium |       10        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       79        |
+| :black_circle: Total   |       80        |
 
 ## Solutions
 
@@ -62,6 +62,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0509 | Fibonacci Number                                       |                    [Go](algorithms/easy/fibonacci-number)                     |   69.5%    |    Easy    |    `Math` `Dynamic Programming` `Recursion` `Memoization`     |
 | 0557 | Reverse Words in a String III                          |              [Go](algorithms/easy/reverse-words-in-a-string-iii)              |   81.8%    |    Easy    |                    `Two Pointers` `String`                    |
 | 0584 | Find Customer Referee                                  |                     [SQL](database/find-customer-referee)                     |   69.7%    |    Easy    |                          `Database`                           |
+| 0589 | N-ary Tree Preorder Traversal                          |              [Go](algorithms/easy/n-ary-tree-preorder-traversal)              |   76.1%    |    Easy    |              `Stack` `Tree` `Depth-First Search`              |
 | 0595 | Big Countries                                          |                         [SQL](database/big-countries)                         |   71.9%    |    Easy    |                          `Database`                           |
 | 0607 | Sales Person                                           |                         [SQL](database/sales-person)                          |   70.6%    |    Easy    |                          `Database`                           |
 | 0627 | Swap Salary                                            |                          [SQL](database/swap-salary)                          |   83.2%    |    Easy    |                          `Database`                           |

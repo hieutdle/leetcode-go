@@ -30,8 +30,8 @@ func Test_middleNode(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 876. Middle of the Linked List------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: head = %v\n【Output】: %v\n", tc.head, gods.List2Slices(middleNode(gods.Slices2List(tc.head))))
-		ast.Equal(tc.ans, gods.List2Slices(middleNode(gods.Slices2List(tc.head))), "Case: %v", tc)
+		fmt.Printf("【Input】: head = %v\n【Output】: %v\n", tc.head, gods.List2Slice(middleNode(gods.Slice2List(tc.head))))
+		ast.Equal(tc.ans, gods.List2Slice(middleNode(gods.Slice2List(tc.head))), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")
 }
@@ -39,7 +39,7 @@ func Test_middleNode(t *testing.T) {
 func Benchmark_middleNode(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		for _, tc := range tcs {
-			middleNode(gods.Slices2List(tc.head))
+			middleNode(gods.Slice2List(tc.head))
 		}
 	}
 }

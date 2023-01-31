@@ -1,15 +1,15 @@
 package gods
 
-var null = -1 << 63
+var Null = -1 << 63
 
 type NaryNode struct {
-	Val int
+	Val      int
 	Children []*NaryNode
 }
 
 // Source: halfrost
 
-func int2NaryNode(nodes []int) *NaryNode {
+func Slice2NaryNode(nodes []int) *NaryNode {
 	root := &NaryNode{}
 	if len(nodes) > 1 {
 		root.Val = nodes[0]
@@ -22,7 +22,7 @@ func int2NaryNode(nodes []int) *NaryNode {
 		node := queue[0]
 
 		childrens := []*NaryNode{}
-		for ; i < len(nodes) && nodes[i] != null; i++ {
+		for ; i < len(nodes) && nodes[i] != Null; i++ {
 			tmp := &NaryNode{Val: nodes[i]}
 			childrens = append(childrens, tmp)
 			queue = append(queue, tmp)

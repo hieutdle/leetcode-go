@@ -22,8 +22,8 @@ func Test_reverseList(t *testing.T) {
 
 	fmt.Printf("------------------------Leetcode Problem 206. Reverse Linked List------------------------\n")
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: head = %v\n【Output】: %v\n", tc.head, gods.List2Slices(reverseList(gods.Slices2List(tc.head))))
-		ast.Equal(tc.ans, gods.List2Slices(reverseList(gods.Slices2List(tc.head))), "Case: %v", tc)
+		fmt.Printf("【Input】: head = %v\n【Output】: %v\n", tc.head, gods.List2Slice(reverseList(gods.Slice2List(tc.head))))
+		ast.Equal(tc.ans, gods.List2Slice(reverseList(gods.Slice2List(tc.head))), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")
 }
@@ -31,7 +31,7 @@ func Test_reverseList(t *testing.T) {
 func Benchmark_reverseList(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		for _, tc := range tcs {
-			reverseList(gods.Slices2List(tc.head))
+			reverseList(gods.Slice2List(tc.head))
 		}
 	}
 }

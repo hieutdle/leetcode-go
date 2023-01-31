@@ -21,7 +21,6 @@ func (l *LinkedList) Prepend(n *ListNode) {
 	l.Length++
 }
 
-
 // Add a ListNode to the end of the list
 
 func (l *LinkedList) Append(n *ListNode) {
@@ -74,7 +73,7 @@ func (l *LinkedList) Insert(n *ListNode, position int) bool {
 
 // Delete with value
 
-func (l *LinkedList) DeleteWithValue(value int)  {
+func (l *LinkedList) DeleteWithValue(value int) {
 
 	// If the head is the value we want to delete
 	if l.Head.Val == value {
@@ -101,7 +100,6 @@ func (l *LinkedList) DeleteWithValue(value int)  {
 		toDelete = toDelete.Next
 	}
 }
-
 
 // Delete with position
 
@@ -141,7 +139,7 @@ func (l LinkedList) PrintListVal() {
 
 // Convert a list to a slice of int (for LeetCode)
 
-func List2Slices(head *ListNode) []int {
+func List2Slice(head *ListNode) []int {
 	res := []int{}
 	for head != nil {
 		res = append(res, head.Val)
@@ -150,10 +148,9 @@ func List2Slices(head *ListNode) []int {
 	return res
 }
 
-
 // Convert a slice of int to a list (for LeetCode)
 
-func Slices2List(nums []int) *ListNode {
+func Slice2List(nums []int) *ListNode {
 	var head *ListNode
 	for i := len(nums) - 1; i >= 0; i-- {
 		head = &ListNode{Val: nums[i], Next: head}
