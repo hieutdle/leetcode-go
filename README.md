@@ -17,7 +17,7 @@ I understand how challenging it can be to work through these problems and I hope
 | :green_circle: Easy    |       70        |
 | :yellow_circle: Medium |       10        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       80        |
+| :black_circle: Total   |       81        |
 
 ## Solutions
 
@@ -33,6 +33,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0041 | First Missing Positive                                 |                 [Go](algorithms/hard/first-missing-positive)                  |   36.6%    |    Hard    |                     `Array` `Hash Table`                      |
 | 0049 | Group Anagrams                                         |                    [Go](algorithms/medium/group-anagrams)                     |   66.6%    |   Medium   |            `Array` `Hash Table` `String` `Sorting`            |
 | 0053 | Maximum Subarray                                       |                   [Go](algorithms/medium/maximum-subarray)                    |   50.1%    |   Medium   |      `Array` `Divide and Conquer` `Dynamic Programming`       |
+| 0062 | Unique Paths                                           |                     [Go](algorithms/medium/unique-paths)                      |   62.5%    |   Medium   |         `Math` `Dynamic Programming` `Combinatorics`          |
 | 0070 | Climbing Stairs                                        |                     [Go](algorithms/easy/climbing-stairs)                     |   52.2%    |    Easy    |          `Math` `Dynamic Programming` `Memoization`           |
 | 0088 | Merge Sorted Array                                     |                   [Go](algorithms/easy/merge-sorted-array)                    |   46.2%    |    Easy    |               `Array` `Two Pointers` `Sorting`                |
 | 0121 | Best Time to Buy and Sell Stock                        |             [Go](algorithms/easy/best-time-to-buy-and-sell-stock)             |   54.3%    |    Easy    |                 `Array` `Dynamic Programming`                 |
