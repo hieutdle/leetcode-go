@@ -15,9 +15,9 @@ I understand how challenging it can be to work through these problems and I hope
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
 | :green_circle: Easy    |       70        |
-| :yellow_circle: Medium |       11        |
+| :yellow_circle: Medium |       13        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       82        |
+| :black_circle: Total   |       84        |
 
 ## Solutions
 
@@ -37,6 +37,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0070 | Climbing Stairs                                        |                     [Go](algorithms/easy/climbing-stairs)                     |   52.2%    |    Easy    |           `Math` `Dynamic Programming` `Memoization`           |
 | 0088 | Merge Sorted Array                                     |                   [Go](algorithms/easy/merge-sorted-array)                    |   46.2%    |    Easy    |                `Array` `Two Pointers` `Sorting`                |
 | 0098 | Validate Binary Search Tree                            |              [Go](algorithms/medium/validate-binary-search-tree)              |   31.9%    |   Medium   | `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree` |
+| 0102 | Binary Tree Level Order Traversal                      |           [Go](algorithms/medium/binary-tree-level-order-traversal)           |   63.9%    |   Medium   |          `Tree` `Breadth-First Search` `Binary Tree`           |
 | 0121 | Best Time to Buy and Sell Stock                        |             [Go](algorithms/easy/best-time-to-buy-and-sell-stock)             |   54.3%    |    Easy    |                 `Array` `Dynamic Programming`                  |
 | 0142 | Linked List Cycle II                                   |                 [Go](algorithms/medium/linked-list-cycle-ii)                  |   47.1%    |   Medium   |           `Hash Table` `Linked List` `Two Pointers`            |
 | 0175 | Combine Two Tables                                     |                      [SQL](database/combine-two-tables)                       |   73.6%    |    Easy    |                           `Database`                           |
@@ -49,6 +50,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0205 | Isomorphic Strings                                     |                   [Go](algorithms/easy/isomorphic-strings)                    |   42.7%    |    Easy    |                     `Hash Table` `String`                      |
 | 0206 | Reverse Linked List                                    |                   [Go](algorithms/easy/reverse-linked-list)                   |   73.0%    |    Easy    |                   `Linked List` `Recursion`                    |
 | 0217 | Contains Duplicate                                     |                   [Go](algorithms/easy/contains-duplicate)                    |   61.4%    |    Easy    |                 `Array` `Hash Table` `Sorting`                 |
+| 0235 | Lowest Common Ancestor of a Binary Search Tree         |    [Go](algorithms/medium/lowest-common-ancestor-of-a-binary-search-tree)     |   61.0%    |   Medium   | `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree` |
 | 0242 | Valid Anagram                                          |                      [Go](algorithms/easy/valid-anagram)                      |   62.9%    |    Easy    |                `Hash Table` `String` `Sorting`                 |
 | 0278 | First Bad Version                                      |                    [Go](algorithms/easy/first-bad-version)                    |   43.1%    |    Easy    |                 `Binary Search` ` Interactive`                 |
 | 0283 | Move Zeroes                                            |                       [Go](algorithms/easy/move-zeroes)                       |   61.4%    |    Easy    |                     `Array` `Two Pointers`                     |
