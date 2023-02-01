@@ -15,9 +15,9 @@ I understand how challenging it can be to work through these problems and I hope
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
 | :green_circle: Easy    |       70        |
-| :yellow_circle: Medium |       13        |
+| :yellow_circle: Medium |       14        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       84        |
+| :black_circle: Total   |       85        |
 
 ## Solutions
 
@@ -61,6 +61,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0383 | Ransom Note                                            |                       [Go](algorithms/easy/ransom-note)                       |   57.9%    |    Easy    |                `Hash Table` `String` `Counting`                |
 | 0387 | First Unique Character in a String                     |           [Go](algorithms/easy/first-unique-character-in-a-string)            |   59.3%    |    Easy    |            `Hash Table` `String` `Queue` `Counting`            |
 | 0392 | Is Subsequence                                         |                     [Go](algorithms/easy/is-subsequence)                      |   48.3%    |    Easy    |         `Two Pointers` `String` `Dynamic Programming`          |
+| 0394 | Decode String                                          |                     [Go](algorithms/medium/decode-string)                     |   57.9%    |   Medium   |                  `String` `Stack` `Recursion`                  |
 | 0409 | Longest Palindrome                                     |                   [Go](algorithms/easy/longest-palindrome)                    |   54.5%    |    Easy    |                 `Hash Table` `String` `Greedy`                 |
 | 0442 | Find All Duplicates in an Array                        |            [Go](algorithms/medium/find-all-duplicates-in-an-array)            |   73.4%    |   Medium   |                      `Array` `Hash Table`                      |
 | 0509 | Fibonacci Number                                       |                    [Go](algorithms/easy/fibonacci-number)                     |   69.5%    |    Easy    |     `Math` `Dynamic Programming` `Recursion` `Memoization`     |
