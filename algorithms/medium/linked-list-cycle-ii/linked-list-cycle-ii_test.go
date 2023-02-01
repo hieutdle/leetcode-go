@@ -41,7 +41,7 @@ func Test_detectCycle(t *testing.T) {
 func Benchmark_detectCycle(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		for _, tc := range tcs {
-			detectCycle(gods.Slice2List(tc.head))
+			detectCycle(gods.Ints2List(tc.head))
 		}
 	}
 }

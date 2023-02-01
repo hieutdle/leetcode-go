@@ -28,8 +28,8 @@ func Test_preorder(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 589. N-ary Tree Preorder Traversal------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: root = %v\n【Output】: %v\n", tc.root, preorder(gods.Slice2NaryNode(tc.root)))
-		ast.Equal(tc.ans, preorder(gods.Slice2NaryNode(tc.root)), "Case: %v", tc)
+		fmt.Printf("【Input】: root = %v\n【Output】: %v\n", tc.root, preorder(gods.Ints2NaryNode(tc.root)))
+		ast.Equal(tc.ans, preorder(gods.Ints2NaryNode(tc.root)), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")
 }
@@ -37,7 +37,7 @@ func Test_preorder(t *testing.T) {
 func Benchmark_preorder(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		for _, tc := range tcs {
-			preorder(gods.Slice2NaryNode(tc.root))
+			preorder(gods.Ints2NaryNode(tc.root))
 		}
 	}
 }

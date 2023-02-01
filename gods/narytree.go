@@ -9,7 +9,7 @@ type NaryNode struct {
 
 // Source: halfrost
 
-func Slice2NaryNode(nodes []int) *NaryNode {
+func Ints2NaryNode(nodes []int) *NaryNode {
 	root := &NaryNode{}
 	if len(nodes) > 1 {
 		root.Val = nodes[0]

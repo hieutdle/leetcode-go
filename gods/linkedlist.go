@@ -139,7 +139,7 @@ func (l LinkedList) PrintListVal() {
 
 // Convert a list to a slice of int (for LeetCode)
 
-func List2Slice(head *ListNode) []int {
+func List2Ints(head *ListNode) []int {
 	res := []int{}
 	for head != nil {
 		res = append(res, head.Val)
@@ -150,7 +150,7 @@ func List2Slice(head *ListNode) []int {
 
 // Convert a slice of int to a list (for LeetCode)
 
-func Slice2List(nums []int) *ListNode {
+func Ints2List(nums []int) *ListNode {
 	var head *ListNode
 	for i := len(nums) - 1; i >= 0; i-- {
 		head = &ListNode{Val: nums[i], Next: head}
