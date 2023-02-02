@@ -39,6 +39,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0098 | Validate Binary Search Tree                            |              [Go](algorithms/medium/validate-binary-search-tree)              |   31.9%    |   Medium   | `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree` |
 | 0102 | Binary Tree Level Order Traversal                      |           [Go](algorithms/medium/binary-tree-level-order-traversal)           |   63.9%    |   Medium   |          `Tree` `Breadth-First Search` `Binary Tree`           |
 | 0121 | Best Time to Buy and Sell Stock                        |             [Go](algorithms/easy/best-time-to-buy-and-sell-stock)             |   54.3%    |    Easy    |                 `Array` `Dynamic Programming`                  |
+| 0136 | Single Number                                          |                      [Go](algorithms/easy/single-number)                      |   70.4%    |    Easy    |                   `Array` `Bit Manipulation`                   |
 | 0142 | Linked List Cycle II                                   |                 [Go](algorithms/medium/linked-list-cycle-ii)                  |   47.1%    |   Medium   |           `Hash Table` `Linked List` `Two Pointers`            |
 | 0175 | Combine Two Tables                                     |                      [SQL](database/combine-two-tables)                       |   73.6%    |    Easy    |                           `Database`                           |
 | 0176 | Second Highest Salary                                  |                     [SQL](database/second-highest-salary)                     |   37.1%    |   Medium   |                           `Database`                           |
@@ -117,3 +118,6 @@ I understand how challenging it can be to work through these problems and I hope
 ## Resources
 
 https://leetcode.com/
+
+
+
