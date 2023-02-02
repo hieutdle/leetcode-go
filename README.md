@@ -15,9 +15,9 @@ I understand how challenging it can be to work through these problems and I hope
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
 | :green_circle: Easy    |       73        |
-| :yellow_circle: Medium |       14        |
+| :yellow_circle: Medium |       15        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       88        |
+| :black_circle: Total   |       89        |
 
 ## Solutions
 
@@ -56,6 +56,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0278 | First Bad Version                                      |                    [Go](algorithms/easy/first-bad-version)                    |   43.1%    |    Easy    |                 `Binary Search` ` Interactive`                 |
 | 0283 | Move Zeroes                                            |                       [Go](algorithms/easy/move-zeroes)                       |   61.4%    |    Easy    |                     `Array` `Two Pointers`                     |
 | 0290 | Word Pattern                                           |                      [Go](algorithms/easy/word-pattern)                       |   41.7%    |    Easy    |                     `Hash Table` `String`                      |
+| 0299 | Bulls and Cows                                         |                    [Go](algorithms/medium/bulls-and-cows)                     |   49.1%    |   Medium   |                `Hash Table` `String` `Counting`                |
 | 0344 | Reverse String                                         |                     [Go](algorithms/easy/reverse-string)                      |   76.5%    |    Easy    |                    `Two Pointers` `String`                     |
 | 0349 | Intersection of Two Arrays                             |               [Go](algorithms/easy/intersection-of-two-arrays)                |   70.6%    |    Easy    | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting`  |
 | 0350 | Intersection of Two Arrays II                          |              [Go](algorithms/easy/intersection-of-two-arrays-ii)              |   55.8%    |    Easy    | `Array` `Hash Table` `Two Pointers` `Binary Search` `Sorting`  |

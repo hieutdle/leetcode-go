@@ -33,7 +33,7 @@ var tcs = []struct {
 func Test_getHint(t *testing.T) {
 	ast := assert.New(t)
 
-	fmt.Printf("------------------------Leetcode Problem 136. Single Number------------------------\n")
+	fmt.Printf("------------------------Leetcode Problem 299. Bulls and Cows------------------------\n")
 
 	for _, tc := range tcs {
 		fmt.Printf("【Input】: secret = %v, guess = %v\n【Output】: %v\n", tc.secret, tc.guess, getHint(tc.secret, tc.guess))
