@@ -14,10 +14,10 @@ I understand how challenging it can be to work through these problems and I hope
 
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
-| :green_circle: Easy    |       73        |
-| :yellow_circle: Medium |       15        |
+| :green_circle: Easy    |       79        |
+| :yellow_circle: Medium |       16        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       89        |
+| :black_circle: Total   |       96        |
 
 ## Solutions
 
@@ -93,6 +93,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 1480 | Running Sum of 1d Array                                |                 [Go](algorithms/easy/running-sum-of-1d-array)                 |   88.7%    |    Easy    |                      `Array` `Prefix Sum`                      |
 | 1484 | Group Sold Products By The Date                        |                [SQL](database/group-sold-products-by-the-date)                |   81.8%    |    Easy    |                           `Database`                           |
 | 1512 | Number of Good Pairs                                   |                  [Go](algorithms/easy/number-of-good-pairs)                   |   88.2%    |    Easy    |             `Array` `Hash Table` `Math` `Counting`             |
+| 1523 | Count Odd Numbers in an Interval Range                 |         [Go](algorithms/easy/count-odd-numbers-in-an-interval-range)          |   46.0%    |    Easy    |                             `Math`                             |
 | 1527 | Patients With a Condition                              |                   [SQL](database/patients-with-a-condition)                   |   41.5%    |    Easy    |                           `Database`                           |
 | 1528 | Shuffle String                                         |                     [Go](algorithms/easy/shuffle-string)                      |   85.5%    |    Easy    |                        `Array` `String`                        |
 | 1581 | Customer Who Visited but Did Not Make Any Transactions |    [SQL](database/customer-who-visited-but-did-not-make-any-transactions)     |   86.8%    |    Easy    |                           `Database`                           |
