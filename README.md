@@ -15,9 +15,9 @@ I understand how challenging it can be to work through these problems and I hope
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
 | :green_circle: Easy    |       79        |
-| :yellow_circle: Medium |       16        |
+| :yellow_circle: Medium |       17        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       96        |
+| :black_circle: Total   |       97        |
 
 ## Solutions
 
@@ -25,6 +25,7 @@ I understand how challenging it can be to work through these problems and I hope
 | No.  | Title                                                   |                                   Solution                                    | Acceptance | Difficulty |                              Tags                              |
 |:----:|:--------------------------------------------------------|:-----------------------------------------------------------------------------:|:----------:|:----------:|:--------------------------------------------------------------:|
 | 0001 | Two Sum                                                 |                         [Go](algorithms/easy/two-sum)                         |   49.2%    |    Easy    |                      `Array` `Hash Table`                      |
+| 0006 | Zigzag Conversion                                       |                   [Go](algorithms/medium/zigzag-conversion)                   |   44.6%    |   Medium   |                            `String`                            |
 | 0009 | Palindrome Number                                       |                    [Go](algorithms/easy/palindrome-number)                    |   53.1%    |    Easy    |                             `Math`                             |
 | 0012 | Integer to Roman                                        |                   [Go](algorithms/medium/integer-to-roman)                    |   61.7%    |   Medium   |                  `Hash Table` `Math` `String`                  |
 | 0013 | Roman to Integer                                        |                    [Go](algorithms/easy/roman-to-integer)                     |   58.2%    |    Easy    |                  `Hash Table` `Math` `String`                  |
@@ -69,6 +70,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0442 | Find All Duplicates in an Array                         |            [Go](algorithms/medium/find-all-duplicates-in-an-array)            |   73.4%    |   Medium   |                      `Array` `Hash Table`                      |
 | 0509 | Fibonacci Number                                        |                    [Go](algorithms/easy/fibonacci-number)                     |   69.5%    |    Easy    |     `Math` `Dynamic Programming` `Recursion` `Memoization`     |
 | 0557 | Reverse Words in a String III                           |              [Go](algorithms/easy/reverse-words-in-a-string-iii)              |   81.8%    |    Easy    |                    `Two Pointers` `String`                     |
+| 0567 | Permutation in String                                   |                 [Go](algorithms/medium/permutation-in-string)                 |   44.3%    |   Medium   |     `Hash Table` `Two Pointers` `String` `Sliding Window`      |
 | 0584 | Find Customer Referee                                   |                     [SQL](database/find-customer-referee)                     |   69.7%    |    Easy    |                           `Database`                           |
 | 0589 | N-ary Tree Preorder Traversal                           |              [Go](algorithms/easy/n-ary-tree-preorder-traversal)              |   76.1%    |    Easy    |              `Stack` `Tree` `Depth-First Search`               |
 | 0595 | Big Countries                                           |                         [SQL](database/big-countries)                         |   71.9%    |    Easy    |                           `Database`                           |
