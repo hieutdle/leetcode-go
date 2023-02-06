@@ -14,10 +14,10 @@ I understand how challenging it can be to work through these problems and I hope
 
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
-| :green_circle: Easy    |       79        |
-| :yellow_circle: Medium |       17        |
+| :green_circle: Easy    |       80        |
+| :yellow_circle: Medium |       19        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       97        |
+| :black_circle: Total   |       100       |
 
 ## Solutions
 
@@ -67,6 +67,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0394 | Decode String                                           |                     [Go](algorithms/medium/decode-string)                     |   57.9%    |   Medium   |                  `String` `Stack` `Recursion`                  |
 | 0409 | Longest Palindrome                                      |                   [Go](algorithms/easy/longest-palindrome)                    |   54.5%    |    Easy    |                 `Hash Table` `String` `Greedy`                 |
 | 0412 | Fizz Buzz                                               |                        [Go](algorithms/easy/fizz-buzz)                        |   69.6%    |    Easy    |                  `Math` `String` `Simulation`                  |
+| 0438 | Find All Anagrams in a String                           |             [Go](algorithms/medium/find-all-anagrams-in-a-string)             |   50.1%    |   Medium   |             `Hash Table` `String` `Sliding Window`             |
 | 0442 | Find All Duplicates in an Array                         |            [Go](algorithms/medium/find-all-duplicates-in-an-array)            |   73.4%    |   Medium   |                      `Array` `Hash Table`                      |
 | 0509 | Fibonacci Number                                        |                    [Go](algorithms/easy/fibonacci-number)                     |   69.5%    |    Easy    |     `Math` `Dynamic Programming` `Recursion` `Memoization`     |
 | 0557 | Reverse Words in a String III                           |              [Go](algorithms/easy/reverse-words-in-a-string-iii)              |   81.8%    |    Easy    |                    `Two Pointers` `String`                     |
@@ -75,6 +76,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0589 | N-ary Tree Preorder Traversal                           |              [Go](algorithms/easy/n-ary-tree-preorder-traversal)              |   76.1%    |    Easy    |              `Stack` `Tree` `Depth-First Search`               |
 | 0595 | Big Countries                                           |                         [SQL](database/big-countries)                         |   71.9%    |    Easy    |                           `Database`                           |
 | 0607 | Sales Person                                            |                         [SQL](database/sales-person)                          |   70.6%    |    Easy    |                           `Database`                           |
+| 0608 | Tree Node                                               |                           [SQL](database/tree-node)                           |   71.8%    |   Medium   |                           `Database`                           |
 | 0627 | Swap Salary                                             |                          [SQL](database/swap-salary)                          |   83.2%    |    Easy    |                           `Database`                           |
 | 0704 | Binary Search                                           |                      [Go](algorithms/easy/binary-search)                      |   55.2%    |    Easy    |                    `Array` `Binary Search`                     |
 | 0724 | Find Pivot Index                                        |                    [Go](algorithms/easy/find-pivot-index)                     |   54.0%    |    Easy    |                      `Array` `Prefix Sum`                      |
