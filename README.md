@@ -15,9 +15,9 @@ I understand how challenging it can be to work through these problems and I hope
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
 | :green_circle: Easy    |       80        |
-| :yellow_circle: Medium |       19        |
+| :yellow_circle: Medium |       20        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       100       |
+| :black_circle: Total   |       101       |
 
 ## Solutions
 
@@ -85,6 +85,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0771 | Jewels and Stones                                       |                    [Go](algorithms/easy/jewels-and-stones)                    |   88.1%    |    Easy    |                      `Hash Table` `String`                       |
 | 0844 | Backspace String Compare                                |                [Go](algorithms/easy/backspace-string-compare)                 |   48.0%    |    Easy    |           `Two Pointers` `String` `Stack` `Simulation`           |
 | 0876 | Middle of the Linked List                               |                [Go](algorithms/easy/middle-of-the-linked-list)                |   75.1%    |    Easy    |                   `Linked List` `Two Pointers`                   |
+| 0904 | Fruit Into Baskets                                      |                  [Go](algorithms/medium/fruit-into-baskets)                   |   43.6%    |   Medium   |              `Array` `Hash Table` `Sliding Window`               |
 | 0953 | Verifying an Alien Dictionary                           |              [Go](algorithms/easy/verifying-an-alien-dictionary)              |   54.3%    |    Easy    |                  `Array` `Hash Table` `String`                   |
 | 0977 | Squares of a Sorted Array                               |                [Go](algorithms/easy/squares-of-a-sorted-array)                |   71.9%    |    Easy    |                 `Array` `Two Pointers` `Sorting`                 |
 | 1071 | Greatest Common Divisor of Strings                      |           [Go](algorithms/easy/greatest-common-divisor-of-strings)            |   54.7%    |    Easy    |                         `Math` `String`                          |
