@@ -15,9 +15,9 @@ I understand how challenging it can be to work through these problems and I hope
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
 | :green_circle: Easy    |       80        |
-| :yellow_circle: Medium |       20        |
+| :yellow_circle: Medium |       21        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       101       |
+| :black_circle: Total   |       102       |
 
 ## Solutions
 
@@ -32,6 +32,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0021 | Merge Two Sorted Lists                                  |                 [Go](algorithms/easy/merge-two-sorted-lists)                  |   62.2%    |    Easy    |                    `Linked List` `Recursion`                     |
 | 0035 | Search Insert Position                                  |                 [Go](algorithms/easy/search-insert-position)                  |   42.3%    |    Easy    |                     `Array` `Binary Search`                      |
 | 0041 | First Missing Positive                                  |                 [Go](algorithms/hard/first-missing-positive)                  |   36.6%    |    Hard    |                       `Array` `Hash Table`                       |
+| 0045 | Jump Game II                                            |                     [Go](algorithms/medium/jump-game-ii)                      |   39.3%    |   Medium   |              `Array` `Dynamic Programming` `Greedy`              |
 | 0049 | Group Anagrams                                          |                    [Go](algorithms/medium/group-anagrams)                     |   66.6%    |   Medium   |             `Array` `Hash Table` `String` `Sorting`              |
 | 0053 | Maximum Subarray                                        |                   [Go](algorithms/medium/maximum-subarray)                    |   50.1%    |   Medium   |        `Array` `Divide and Conquer` `Dynamic Programming`        |
 | 0062 | Unique Paths                                            |                     [Go](algorithms/medium/unique-paths)                      |   62.5%    |   Medium   |           `Math` `Dynamic Programming` `Combinatorics`           |
