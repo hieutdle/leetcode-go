@@ -14,10 +14,10 @@ I understand how challenging it can be to work through these problems and I hope
 
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
-| :green_circle: Easy    |       80        |
+| :green_circle: Easy    |       82        |
 | :yellow_circle: Medium |       21        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       102       |
+| :black_circle: Total   |       104       |
 
 ## Solutions
 
@@ -49,6 +49,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0182 | Duplicate Emails                                        |                       [SQL](database/duplicate-emails)                        |   70.8%    |    Easy    |                            `Database`                            |
 | 0183 | Customers Who Never Order                               |                   [SQL](database/customers-who-never-order)                   |   68.4%    |    Easy    |                            `Database`                            |
 | 0189 | Rotate Array                                            |                     [Go](algorithms/medium/rotate-array)                      |   39.3%    |   Medium   |                  `Array` `Math` `Two Pointers`                   |
+| 0191 | Number of 1 Bits                                        |                    [Go](algorithms/easy/number-of-1-bits)                     |   66.1%    |    Easy    |             `Divide and Conquer` `Bit Manipulation`              |
 | 0196 | Delete Duplicate Emails                                 |                    [SQL](database/delete-duplicate-emails)                    |   59.8%    |    Easy    |                            `Database`                            |
 | 0197 | Rising Temperature                                      |                      [SQL](database/rising-temperature)                       |   44.7%    |    Easy    |                            `Database`                            |
 | 0205 | Isomorphic Strings                                      |                   [Go](algorithms/easy/isomorphic-strings)                    |   42.7%    |    Easy    |                      `Hash Table` `String`                       |
@@ -88,6 +89,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0876 | Middle of the Linked List                               |                [Go](algorithms/easy/middle-of-the-linked-list)                |   75.1%    |    Easy    |                   `Linked List` `Two Pointers`                   |
 | 0904 | Fruit Into Baskets                                      |                  [Go](algorithms/medium/fruit-into-baskets)                   |   43.6%    |   Medium   |              `Array` `Hash Table` `Sliding Window`               |
 | 0953 | Verifying an Alien Dictionary                           |              [Go](algorithms/easy/verifying-an-alien-dictionary)              |   54.3%    |    Easy    |                  `Array` `Hash Table` `String`                   |
+| 0976 | Largest Perimeter Triangle                              |               [Go](algorithms/easy/largest-perimeter-triangle)                |   54.6%    |    Easy    |                `Array` `Math` `Greedy` `Sorting`                 |
 | 0977 | Squares of a Sorted Array                               |                [Go](algorithms/easy/squares-of-a-sorted-array)                |   71.9%    |    Easy    |                 `Array` `Two Pointers` `Sorting`                 |
 | 1071 | Greatest Common Divisor of Strings                      |           [Go](algorithms/easy/greatest-common-divisor-of-strings)            |   54.7%    |    Easy    |                         `Math` `String`                          |
 | 1108 | Defanging an IP Address                                 |                 [Go](algorithms/easy/defanging-an-ip-address)                 |   89.3%    |    Easy    |                             `String`                             |

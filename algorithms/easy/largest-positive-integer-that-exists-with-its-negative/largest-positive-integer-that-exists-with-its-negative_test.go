@@ -34,8 +34,8 @@ func Test_findMaxK(t *testing.T) {
 	fmt.Printf("------------------------Leetcode Problem 2441. Largest Positive Integer That Exists With Its Negative------------------------\n")
 
 	for _, tc := range tcs {
-		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.nums,
-			ast.Equal(tc.ans, findMaxK(tc.nums), "Case: %v", tc.nums, findMaxK(tc.nums)))
+		fmt.Printf("【Input】: nums = %v\n【Output】: %v\n", tc.nums, findMaxK(tc.nums))
+		ast.Equal(tc.ans, findMaxK(tc.nums), "Case: %v", tc)
 	}
 	fmt.Printf("\n\n\n")
 }
