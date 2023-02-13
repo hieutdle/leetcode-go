@@ -130,6 +130,12 @@ I understand how challenging it can be to work through these problems and I hope
 | 2469 | Convert the Temperature                                 |                 [Go](algorithms/easy/convert-the-temperature)                 |   89.8%    |    Easy    |                              `Math`                              |
 
 
+Not added yet:
+1129
+2477
+1162
+2306
+
 
 ## Resources
 
