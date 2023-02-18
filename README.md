@@ -14,10 +14,10 @@ I understand how challenging it can be to work through these problems and I hope
 
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
-| :green_circle: Easy    |       82        |
+| :green_circle: Easy    |       83        |
 | :yellow_circle: Medium |       21        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       104       |
+| :black_circle: Total   |       105       |
 
 ## Solutions
 
@@ -36,6 +36,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0049 | Group Anagrams                                          |                    [Go](algorithms/medium/group-anagrams)                     |   66.6%    |   Medium   |             `Array` `Hash Table` `String` `Sorting`              |
 | 0053 | Maximum Subarray                                        |                   [Go](algorithms/medium/maximum-subarray)                    |   50.1%    |   Medium   |        `Array` `Divide and Conquer` `Dynamic Programming`        |
 | 0062 | Unique Paths                                            |                     [Go](algorithms/medium/unique-paths)                      |   62.5%    |   Medium   |           `Math` `Dynamic Programming` `Combinatorics`           |
+| 0067 | Add Binary                                              |                       [Go](algorithms/easy/add-binary)                        |   52.3%    |    Easy    |         `Math` `String` `Bit Manipulation` `Simulation`          |
 | 0070 | Climbing Stairs                                         |                     [Go](algorithms/easy/climbing-stairs)                     |   52.2%    |    Easy    |            `Math` `Dynamic Programming` `Memoization`            |
 | 0088 | Merge Sorted Array                                      |                   [Go](algorithms/easy/merge-sorted-array)                    |   46.2%    |    Easy    |                 `Array` `Two Pointers` `Sorting`                 |
 | 0098 | Validate Binary Search Tree                             |              [Go](algorithms/medium/validate-binary-search-tree)              |   31.9%    |   Medium   |  `Tree` `Depth-First Search` `Binary Search Tree` `Binary Tree`  |
@@ -135,7 +136,7 @@ Not added yet:
 2477
 1162
 2306
-
+783
 
 ## Resources
 
