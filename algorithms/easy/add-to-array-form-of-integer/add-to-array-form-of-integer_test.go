@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-// testcases
+// tescases
 var tcs = []struct {
 	num []int
 	k   int
@@ -19,6 +19,7 @@ var tcs = []struct {
 }
 
 func Test_addToArrayForm(t *testing.T) {
+
 	ast := assert.New(t)
 
 	fmt.Printf("------------------------Leetcode Problem 989. Add to Array-Form of Integer------------------------\n")

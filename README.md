@@ -14,10 +14,10 @@ I understand how challenging it can be to work through these problems and I hope
 
 | Difficulty             | Solved Problems |
 |------------------------|:---------------:|
-| :green_circle: Easy    |       83        |
+| :green_circle: Easy    |       85        |
 | :yellow_circle: Medium |       21        |
 | :red_circle: Hard      |        1        |
-| :black_circle: Total   |       105       |
+| :black_circle: Total   |       107       |
 
 ## Solutions
 
@@ -92,6 +92,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 0953 | Verifying an Alien Dictionary                           |              [Go](algorithms/easy/verifying-an-alien-dictionary)              |   54.3%    |    Easy    |                  `Array` `Hash Table` `String`                   |
 | 0976 | Largest Perimeter Triangle                              |               [Go](algorithms/easy/largest-perimeter-triangle)                |   54.6%    |    Easy    |                `Array` `Math` `Greedy` `Sorting`                 |
 | 0977 | Squares of a Sorted Array                               |                [Go](algorithms/easy/squares-of-a-sorted-array)                |   71.9%    |    Easy    |                 `Array` `Two Pointers` `Sorting`                 |
+| 0989 | Add to Array-Form of Integer                            |              [Go](algorithms/easy/add-to-array-form-of-integer)               |   47.2%    |    Easy    |                          `Array` `Math`                          |
 | 1071 | Greatest Common Divisor of Strings                      |           [Go](algorithms/easy/greatest-common-divisor-of-strings)            |   54.7%    |    Easy    |                         `Math` `String`                          |
 | 1108 | Defanging an IP Address                                 |                 [Go](algorithms/easy/defanging-an-ip-address)                 |   89.3%    |    Easy    |                             `String`                             |
 | 1141 | User Activity for the Past 30 Days I                    |             [SQL](database/user-activity-for-the-past-30-days-i)              |   49.2%    |    Easy    |                            `Database`                            |
@@ -117,6 +118,7 @@ I understand how challenging it can be to work through these problems and I hope
 | 1729 | Find Followers Count                                    |                     [SQL](database/find-followers-count)                      |   71.3%    |    Easy    |                            `Database`                            |
 | 1741 | Find Total Time Spent by Each Employee                  |            [SQL](database/find-total-time-spent-by-each-employee)             |   90.8%    |    Easy    |                            `Database`                            |
 | 1757 | Recyclable and Low Fat Products                         |                [SQL](database/recyclable-and-low-fat-products)                |   93.2%    |    Easy    |                            `Database`                            |
+| 1779 | Find Nearest Point That Has the Same X or Y Coordinate  | [Go](algorithms/easy/find-nearest-point-that-has-the-same-x-or-y-coordinate)  |   67.4%    |    Easy    |                             `Array`                              |
 | 1795 | Rearrange Products Table                                |                   [SQL](database/rearrange-products-table)                    |   88.1%    |    Easy    |                            `Database`                            |
 | 1873 | Calculate Special Bonus                                 |                    [SQL](database/calculate-special-bonus)                    |   61.4%    |    Easy    |                            `Database`                            |
 | 1920 | Build Array from Permutation                            |              [Go](algorithms/easy/build-array-from-permutation)               |   91.0%    |    Easy    |                       `Array` `Simulation`                       |
