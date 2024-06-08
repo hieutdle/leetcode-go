@@ -1,4 +1,4 @@
-# Go solutions to LeetCode problems
+# Solutions to LeetCode problems
 
 The purpose of this repository is to serve as a portfolio of my work and to provide a resource for others seeking clear and easy-to-understand solutions to these problems. Every day starting January 17, 2023, I will be adding my solutions to this repository.
 
