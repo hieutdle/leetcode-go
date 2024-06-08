@@ -13,7 +13,7 @@ I understand how challenging it can be to work through these problems and I hope
 [My LeetCode profile](https://leetcode.com/goldennovember/)
 
 | Difficulty             | Solved Problems |
-|------------------------|:---------------:|
+| ---------------------- | :-------------: |
 | :green_circle: Easy    |       85        |
 | :yellow_circle: Medium |       21        |
 | :red_circle: Hard      |        1        |
@@ -21,10 +21,9 @@ I understand how challenging it can be to work through these problems and I hope
 
 ## Solutions
 
-
 | No.  | Title                                                   |                                   Solution                                    | Acceptance | Difficulty |                               Tags                               |
-|:----:|:--------------------------------------------------------|:-----------------------------------------------------------------------------:|:----------:|:----------:|:----------------------------------------------------------------:|
-| 0001 | Two Sum                                                 |                         [Go](algorithms/easy/two-sum)                         |   49.2%    |    Easy    |                       `Array` `Hash Table`                       |
+| :--: | :------------------------------------------------------ | :---------------------------------------------------------------------------: | :--------: | :--------: | :--------------------------------------------------------------: |
+| 0001 | Two Sum                                                 |                    [C\|Go\|Rust](algorithms/easy/two-sum)                     |   49.2%    |    Easy    |                       `Array` `Hash Table`                       |
 | 0006 | Zigzag Conversion                                       |                   [Go](algorithms/medium/zigzag-conversion)                   |   44.6%    |   Medium   |                             `String`                             |
 | 0009 | Palindrome Number                                       |                    [Go](algorithms/easy/palindrome-number)                    |   53.1%    |    Easy    |                              `Math`                              |
 | 0012 | Integer to Roman                                        |                   [Go](algorithms/medium/integer-to-roman)                    |   61.7%    |   Medium   |                   `Hash Table` `Math` `String`                   |
@@ -129,9 +128,8 @@ I understand how challenging it can be to work through these problems and I hope
 | 2114 | Maximum Number of Words Found in Sentences              |       [Go](algorithms/easy/maximum-number-of-words-found-in-sentences)        |   87.8%    |    Easy    |                         `Array` `String`                         |
 | 2235 | Add Two Integers                                        |                    [Go](algorithms/easy/add-two-integers)                     |   89.2%    |    Easy    |                              `Math`                              |
 | 2413 | Smallest Even Multiple                                  |                 [Go](algorithms/easy/smallest-even-multiple)                  |   87.6%    |    Easy    |                      `Math` `Number Theory`                      |
-| 2441 | Largest Positive Integer That Exists With Its Negative  | [Go](algorithms/easy/largest-positive-integer-that-exists-with-its-negative ) |   67.8%    |    Easy    |                       `Array` `Hash Table`                       |
+| 2441 | Largest Positive Integer That Exists With Its Negative  | [Go](algorithms/easy/largest-positive-integer-that-exists-with-its-negative)  |   67.8%    |    Easy    |                       `Array` `Hash Table`                       |
 | 2469 | Convert the Temperature                                 |                 [Go](algorithms/easy/convert-the-temperature)                 |   89.8%    |    Easy    |                              `Math`                              |
-
 
 Not added yet:
 1129
@@ -143,10 +141,6 @@ Not added yet:
 502
 1675
 
-
 ## Resources
 
 https://leetcode.com/
-
-
-
