@@ -13,6 +13,6 @@
 
 ## Solutions
 
-| No.  | Title   |                 Solution                 | Difficulty |         Tags         |
-| :--: | :------ | :--------------------------------------: | :--------: | :------------------: |
-| 0001 | Two Sum | [Go](algorithms/easy/two-sum/two-sum.go) |    Easy    | `Array` `Hash Table` |
+| No.  | Title   |                                        Solution                                         | Difficulty |         Tags         |
+| :--: | :------ | :-------------------------------------------------------------------------------------: | :--------: | :------------------: |
+| 0001 | Two Sum | [Go](algorithms/easy/two-sum/1.two-sum.go) [Rust](algorithms/easy/two-sum/1.two-sum.rs) |    Easy    | `Array` `Hash Table` |
