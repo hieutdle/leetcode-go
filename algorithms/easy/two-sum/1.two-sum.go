@@ -1,5 +1,10 @@
-package algorithms
+/*
+ * @lc app=leetcode id=1 lang=golang
+ *
+ * [1] Two Sum
+ */
 
+// @lc code=start
 func twoSum(nums []int, target int) []int {
 
 	// I used Brute Force before, but I want to try new thing this time.
@@ -22,3 +27,6 @@ func twoSum(nums []int, target int) []int {
 
 	return nil
 }
+
+// @lc code=end
+

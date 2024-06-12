@@ -23,7 +23,7 @@ I understand how challenging it can be to work through these problems and I hope
 
 | No.  | Title                                                   |                                   Solution                                    | Acceptance | Difficulty |                               Tags                               |
 | :--: | :------------------------------------------------------ | :---------------------------------------------------------------------------: | :--------: | :--------: | :--------------------------------------------------------------: |
-| 0001 | Two Sum                                                 |                    [C\|Go\|Rust](algorithms/easy/two-sum)                     |   49.2%    |    Easy    |                       `Array` `Hash Table`                       |
+| 0001 | Two Sum                                                 |                   [Go](algorithms/easy/two-sum/two-sum.go)                    |   49.2%    |    Easy    |                       `Array` `Hash Table`                       |
 | 0006 | Zigzag Conversion                                       |                   [Go](algorithms/medium/zigzag-conversion)                   |   44.6%    |   Medium   |                             `String`                             |
 | 0009 | Palindrome Number                                       |                    [Go](algorithms/easy/palindrome-number)                    |   53.1%    |    Easy    |                              `Math`                              |
 | 0012 | Integer to Roman                                        |                   [Go](algorithms/medium/integer-to-roman)                    |   61.7%    |   Medium   |                   `Hash Table` `Math` `String`                   |
